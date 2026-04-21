@@ -13,6 +13,9 @@ A production-grade, agentic web automation framework powered by **Gemini 2.5 Com
 
 <img width="2048" height="1118" alt="image" src="https://github.com/user-attachments/assets/b455be4b-bd8c-43fe-9998-bc723746431a" />
 
+##  Project File
+https://drive.google.com/file/d/1cPNIrOPRuqgzlbmPrKK9aDQ8PX4detGp/view?usp=sharing
+
 ## 🛠️ Technologies Used
 
 ### Backend
