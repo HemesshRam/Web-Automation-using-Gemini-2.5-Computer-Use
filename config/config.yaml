@@ -1,0 +1,164 @@
+# Enterprise Web Automation Framework Configuration - SPEED OPTIMIZED
+# Changes vs original:
+#   - delay_range_min/max  :  1.0–5.0 s  →  0.05–0.3 s   (10-17x faster)
+#   - typing_delay_min/max :  0.05–0.15 s →  0.01–0.03 s  (5x faster; JS fill preferred)
+#   - page_load_timeout    :  45 s  →  30 s  (eager strategy = DOM ready earlier)
+#   - element_wait_timeout :  15 s  →  10 s
+#   - action delay_after   :  halved across all action types
+#   - navigation delay     :  1.0 s →  0.3 s (network-idle polling replaces fixed sleep)
+#   - screenshot quality   :  90   →  75     (smaller files, faster async I/O)
+#   - page_load_strategy   :  "normal" (implicit) → "eager" (explicit)
+#   - parallel_execution   :  false → true  (max 3 concurrent tasks)
+#   - retry initial_delay  :  1.0 s →  0.5 s
+
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Application Settings
+application:
+  name: "Enterprise Web Automation Framework"
+  version: "1.1.0"
+  environment: "production"
+  debug: false
+
+# API Configuration
+api:
+  gemini_api_key: ""
+  gemini_model: "gemini-2.0-flash"
+  vision_model: "gemini-2.0-flash"
+  timeout: 30
+
+# Browser Configuration
+browser:
+  type: "chrome"
+  headless: false
+  disable_gpu: false
+  no_sandbox: false
+  disable_dev_shm: false
+  window_width: 1920
+  window_height: 1080
+  page_load_timeout: 30          # was: 45  – eager strategy reduces wait
+  element_wait_timeout: 10       # was: 15
+  # NEW: Eager strategy returns as soon as DOM is interactive,
+  # before images/fonts/analytics beacons finish loading.
+  page_load_strategy: "eager"
+
+# Anti-Bot Configuration
+anti_bot:
+  enable_stealth: true
+  random_delay: true
+  delay_range_min: 0.05          # was: 1.0  (20x reduction)
+  delay_range_max: 0.30          # was: 5.0  (17x reduction)
+  user_agent_rotation: true
+  randomize_headers: true
+  # JS fill in FAST_MODE makes per-char typing delays irrelevant
+  typing_delay_min: 0.01         # was: 0.05
+  typing_delay_max: 0.03         # was: 0.15
+
+# Proxy Configuration
+proxy:
+  use_proxy: false
+  rotate_proxy: false
+  proxy_list:
+    - "http://proxy1.example.com:8080"
+    - "http://proxy2.example.com:8080"
+
+# Database Configuration
+database:
+  url: "sqlite:///automation.db"
+  echo: false
+  pool_size: 5
+  max_overflow: 10
+  pool_pre_ping: true
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  format: "detailed"
+  directory: "logs"
+  max_bytes: 10485760  # 10 MB
+  backup_count: 5
+
+  handlers:
+    file:
+      enabled: true
+      level: "INFO"
+    console:
+      enabled: true
+      level: "INFO"
+    syslog:
+      enabled: false
+      level: "ERROR"
+
+# Screenshot Configuration
+screenshots:
+  enabled: true
+  directory: "screenshots"
+  full_page: true
+  format: "png"
+  quality: 75                    # was: 90 – smaller files, faster I/O
+
+# Action Configuration
+actions:
+  click:
+    timeout: 10000               # was: 15000
+    delay_after: 0.05            # was: 0.2
+  input:
+    timeout: 5000
+    delay_after: 0.05            # was: 0.1
+  key_press:
+    timeout: 5000
+    delay_after: 0.05            # was: 0.2
+  navigation:
+    timeout: 30000               # was: 45000
+    delay_after: 0.30            # was: 1.0  (network-idle polling replaces sleep)
+
+# Workflow Configuration
+workflows:
+  form_filling:
+    enabled: true
+    timeout: 90                  # was: 120
+    max_retries: 3
+  scraping:
+    enabled: true
+    timeout: 200                 # was: 300
+    batch_size: 100
+  interaction:
+    enabled: true
+    timeout: 120                 # was: 180
+    max_actions: 50
+
+# Retry Configuration
+retry:
+  max_attempts: 3
+  initial_delay: 0.5             # was: 1.0
+  max_delay: 30.0                # was: 60.0
+  backoff_factor: 2.0
+  backoff_jitter: true
+
+# Notification Configuration
+notifications:
+  enabled: false
+  email:
+    enabled: false
+    smtp_server: "smtp.gmail.com"
+    smtp_port: 587
+  slack:
+    enabled: false
+    webhook_url: ""
+  webhook:
+    enabled: false
+    url: ""
+
+# Security Configuration
+security:
+  verify_ssl: true
+  require_authentication: false
+  api_key_required: true
+  log_sensitive_data: false
+
+# Performance Configuration
+performance:
+  parallel_execution: true       # was: false
+  max_concurrent_tasks: 3        # was: 1
+  memory_limit_mb: 2048
+  cpu_limit_percent: 80
