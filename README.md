@@ -31,18 +31,64 @@ A production-grade, agentic web automation framework powered by **Gemini 2.5 Com
 - **Icons**: Lucide React
 - **Date Utilities**: date-fns
 
+## 🖥️ Frontend Dashboard Features
+
+The framework includes a state-of-the-art monitoring dashboard designed for enterprise observability:
+
+- **📊 Real-time Analytics**: High-level KPI cards tracking success rates, average execution times, and total automation actions across all tasks.
+- **📈 Performance Visualization**: Interactive area charts and pie charts providing insights into execution trends and status distributions.
+- **⏱️ Live Log Streaming**: Real-time monitoring of agentic processes via WebSockets, allowing you to see exactly what the AI is doing as it happens.
+- **🗂️ Task History & Management**: A comprehensive database of all past executions, complete with status tracking, duration metrics, and direct links to task details.
+- **🔍 Deep Task Inspection**: Detailed views for every automation run, capturing critical metadata, prompts, and final outcomes.
+- **✨ Premium UI/UX**: A modern, responsive interface featuring a sleek dark mode, glassmorphism design elements, and interactive data components.
+
 ## 🚀 Installation & Setup
 
-### Backend Setup
-1. **Create Virtual Environment**: Create a Python virtual environment and activate it.
-2. **Install Dependencies**: Install the required packages from `requirements.txt`.
-3. **Configure Environment**: Copy `.env.example` to `.env` and add your `GEMINI_API_KEY`.
-4. **Run the Framework**: Start the application from `main.py`.
+Follow these detailed steps to get the Enterprise Web Automation Framework up and running on your system.
 
-### Frontend Setup
-1. **Navigate to Frontend**: Enter the `frontend` directory.
-2. **Install Dependencies**: Install the required node packages using `npm install`.
-3. **Run the Dashboard**: Start the development server using `npm run dev`.
+### 🐍 Backend Setup (Terminal & API)
+
+1.  **Open Terminal**: Open your command prompt (CMD), PowerShell, or terminal in the project's root directory.
+2.  **Create Virtual Environment**:
+    ```batch
+    python -m venv venv
+    ```
+3.  **Activate Virtual Environment**:
+    - **Windows**: `venv\Scripts\activate`
+    - **macOS/Linux**: `source venv/bin/activate`
+4.  **Install Python Dependencies**:
+    ```batch
+    pip install -r requirements.txt
+    ```
+5.  **Configure Environment Variables**:
+    - Create a `.env` file: `copy .env.example .env` (Windows) or `cp .env.example .env` (macOS/Linux).
+    - Open `.env` and add your `GEMINI_API_KEY`.
+    - (Optional) Set `HEADLESS=False` in `.env` to watch the browser interactions live.
+6.  **Run the Application**:
+    - **Interactive Menu**: `python main.py` (Best for direct control).
+    - **API Server**: `python run_dashboard.py` (Required for the Frontend Dashboard).
+
+---
+
+### 💻 Frontend Setup (Monitoring Dashboard)
+
+1.  **Open a New Terminal**: Navigate to the `frontend` directory: `cd frontend`.
+2.  **Install Node Dependencies**: Ensure [Node.js](https://nodejs.org/) is installed, then run:
+    ```batch
+    npm install
+    ```
+3.  **Start Development Server**:
+    ```batch
+    npm run dev
+    ```
+4.  **Access Dashboard**: Open `http://localhost:5173` in your browser.
+
+---
+
+### ✅ Verification & Testing
+
+- **FastAPI Health**: Visit `http://localhost:8000/docs` to verify the API server is active.
+- **Initial Test**: Run `python main.py` and select **Option 1 (Run DemoQA Test)** to ensure the AI agent and browser drivers are correctly configured.
 
 ## 🎮 Usage
 
