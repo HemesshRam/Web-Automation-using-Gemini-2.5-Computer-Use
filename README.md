@@ -11,6 +11,8 @@ A production-grade, agentic web automation framework powered by **Gemini 2.5 Com
 - **⚙️ Enterprise Architecture**: Built with robust configuration management (Pydantic), structured logging (Structlog), database persistence (SQLAlchemy), and retry logic with exponential backoff.
 - **💻 Multi-Browser Support**: Integrated with Playwright and Selenium (`undetected-chromedriver`) for maximum flexibility and stealth.
 
+![alt text](image.png)
+
 ## 🛠️ Technologies Used
 
 ### Backend
