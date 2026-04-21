@@ -1,0 +1,6 @@
+{
+  "error": "'status'",
+  "status": "failed",
+  "task_id": "20260405_181246_988349",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\web_automation_enterprise\\core\\automation_engine.py\", line 109, in execute_agentic_task\n    self.logger.info(f\"Task execution completed: {results['status']}\")\n                                                  ~~~~~~~^^^^^^^^^^\nKeyError: 'status'\n"
+}

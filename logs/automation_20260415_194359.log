@@ -1,0 +1,94 @@
+2026-04-15 19:43:59 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-15 19:43:59 - __main__ - INFO - 🚀 WEB AUTOMATION - GROQ + FALLBACK ANALYSIS (NO GEMINI)
+2026-04-15 19:43:59 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-15 19:43:59 - __main__ - INFO - [CONFIG] Browser: Chrome
+2026-04-15 19:43:59 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-15 19:43:59 - __main__ - INFO - [CONFIG] Anti-Bot: Enabled
+2026-04-15 19:43:59 - __main__ - INFO - [GROQ] Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-15 19:43:59 - __main__ - INFO - [FALLBACK] Rule-Based Analysis: Enabled
+
+2026-04-15 19:44:07 - __main__ - INFO - 
+[TASK] Go to finance.yahoo.com, search for TESLA stock, extract current price and provide summary
+2026-04-15 19:44:07 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-15 19:44:07 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-15 19:44:07 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-15 19:44:07 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-15 19:44:07 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-15 19:44:09 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-15 19:44:09 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-15 19:44:09 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-15 19:44:09 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-15 19:44:10 - GroqAutomationEngine - INFO - ✅ Groq initialized (meta-llama/llama-4-scout)
+2026-04-15 19:44:10 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-15 19:44:10 - ComputerUseLoop - INFO - COMPUTER USE LOOP - GROQ + FALLBACK ANALYSIS
+2026-04-15 19:44:10 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-15 19:44:10 - ComputerUseLoop - INFO - [NAVIGATE] https://finance.yahoo.com
+2026-04-15 19:44:55 - ComputerUseLoop - ERROR - [FATAL] Message: timeout: Timed out receiving message from renderer: 9.887
+  (Session info: chrome=147.0.7727.56)
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff612270295+146d5]
+	chromedriver!GetHandleVerifier [0x7ff612270300+14740]
+	chromedriver!(No symbol) [0x7ff611fdd7cd]
+	chromedriver!(No symbol) [0x7ff611fc9fa9]
+	chromedriver!(No symbol) [0x7ff611fc9c91]
+	chromedriver!(No symbol) [0x7ff611fc78c1]
+	chromedriver!(No symbol) [0x7ff611fc81ff]
+	chromedriver!(No symbol) [0x7ff611fd7b8a]
+	chromedriver!(No symbol) [0x7ff611feea97]
+	chromedriver!(No symbol) [0x7ff611ff61da]
+	chromedriver!(No symbol) [0x7ff611fc89c1]
+	chromedriver!(No symbol) [0x7ff611fee7c5]
+	chromedriver!(No symbol) [0x7ff612084b92]
+	chromedriver!(No symbol) [0x7ff612029018]
+	chromedriver!(No symbol) [0x7ff612029f03]
+	chromedriver!GetHandleVerifier [0x7ff612585949+329d89]
+	chromedriver!GetHandleVerifier [0x7ff61257fe96+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff6125a3102+347542]
+	chromedriver!GetHandleVerifier [0x7ff61228d425+31865]
+	chromedriver!GetHandleVerifier [0x7ff61229605c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff612279684+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff612279836+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff61225e347+2787]
+	KERNEL32!BaseThreadInitThunk [0x7ffd891ee8d7+17]
+	ntdll!RtlUserThreadStart [0x7ffd8ad8c48c+2c]
+
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - AUTOMATION RESULTS
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - ======================================================================================================================================================
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Task: Go to finance.yahoo.com, search for TESLA stock, extract current price and provi...
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Workflow: unknown
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Total Iterations: 0
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Total Actions: 0
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Pages Visited: 0
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Execution Time: 45.0s
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Groq Used: True
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - Fallback Used: False
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - 
+[WORKFLOW HISTORY]
+2026-04-15 19:44:55 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-15 19:44:55 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-15 19:44:55 - __main__ - INFO - 📊 EXECUTION SUMMARY
+2026-04-15 19:44:55 - __main__ - INFO - ======================================================================================================================================================
+2026-04-15 19:44:55 - __main__ - INFO - 
+Workflow Type: unknown
+2026-04-15 19:44:55 - __main__ - INFO - Total Iterations: 0
+2026-04-15 19:44:55 - __main__ - INFO - Actions Executed: 0
+2026-04-15 19:44:55 - __main__ - INFO - Pages Visited: 0
+2026-04-15 19:44:55 - __main__ - INFO - Execution Time: 45.0s
+2026-04-15 19:44:55 - __main__ - INFO - 
+[ENGINES]
+2026-04-15 19:44:55 - __main__ - INFO -   Groq Used: ✓
+2026-04-15 19:44:55 - __main__ - INFO -   Fallback Used: ✗
+2026-04-15 19:44:55 - __main__ - INFO - 
+======================================================================================================================================================
+
+2026-04-15 19:44:55 - __main__ - INFO - [BROWSER] Closing...
+2026-04-15 19:48:18 - __main__ - INFO - [EXIT] Goodbye! 👋

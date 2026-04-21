@@ -1,0 +1,58 @@
+2026-04-16 22:11:39 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-16 22:11:39 - __main__ - INFO - 🚀 WEB AUTOMATION - GROQ + FALLBACK ANALYSIS (NO GEMINI)
+2026-04-16 22:11:39 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-16 22:11:39 - __main__ - INFO - [CONFIG] Browser: Chrome
+2026-04-16 22:11:39 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-16 22:11:39 - __main__ - INFO - [CONFIG] Anti-Bot: Enabled
+2026-04-16 22:11:39 - __main__ - INFO - [GROQ] Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-16 22:11:39 - __main__ - INFO - [FALLBACK] Rule-Based Analysis: Enabled
+
+2026-04-16 22:13:36 - __main__ - INFO - 
+[TASK] Go to youtube.com, search for AR Rahman songs, click first video, extract title and description, provide summary
+2026-04-16 22:13:36 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-16 22:13:36 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 22:13:36 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 22:13:36 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-16 22:13:36 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-16 22:13:37 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-16 22:13:37 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-16 22:13:37 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-16 22:13:37 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-16 22:13:38 - GroqAutomationEngine - INFO - ✅ Groq initialized (mixtral-8x7b-32768)
+2026-04-16 22:13:38 - __main__ - ERROR - [ERROR] Client.__init__() got an unexpected keyword argument 'proxies'
+2026-04-16 22:13:38 - __main__ - ERROR - Traceback (most recent call last):
+  File "D:\web_automation_enterprise\main_updated.py", line 204, in run_youtube_automation
+    computer_loop = ComputerUseLoop(driver, anti_bot)
+  File "D:\web_automation_enterprise\project\computer_use_loop.py", line 23, in __init__
+    self.openai_engine = OpenAIAutomationEngine()
+                         ~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\web_automation_enterprise\project\openai_automation_engine.py", line 38, in __init__
+    self.client = OpenAI(api_key=api_key)
+                  ~~~~~~^^^^^^^^^^^^^^^^^
+  File "D:\web_automation_enterprise\venv\Lib\site-packages\openai\_client.py", line 104, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        version=__version__,
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        _strict_response_validation=_strict_response_validation,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "D:\web_automation_enterprise\venv\Lib\site-packages\openai\_base_client.py", line 738, in __init__
+    self._client = http_client or httpx.Client(
+                                  ~~~~~~~~~~~~^
+        base_url=base_url,
+        ^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        limits=limits,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: Client.__init__() got an unexpected keyword argument 'proxies'
+
+2026-04-16 22:13:38 - __main__ - INFO - [BROWSER] Closing...
+2026-04-16 22:13:53 - __main__ - INFO - [EXIT] Goodbye! 👋

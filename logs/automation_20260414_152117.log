@@ -1,0 +1,68 @@
+2026-04-14 15:21:17 - __main__ - INFO - Database initialized
+2026-04-14 15:21:17 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 15:21:17 - __main__ - INFO - GEMINI 2.5 PRO - REAL WEBSITE AUTOMATION (ANY WEBSITE)
+2026-04-14 15:21:17 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 15:21:17 - __main__ - INFO - [CONFIG] API Key: AIzaSyCFFhXkL4z_IkVQBjLsX1Vw4L...
+2026-04-14 15:21:17 - __main__ - INFO - [CONFIG] Browser: chrome
+2026-04-14 15:21:17 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-14 15:21:17 - __main__ - INFO - [CONFIG] Anti-Bot: True
+
+2026-04-14 15:21:27 - __main__ - INFO - [TASK] DemoQA Intelligence Extraction
+
+2026-04-14 15:21:27 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-14 15:21:27 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 15:21:27 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 15:21:27 - GeminiComputerUseFlow - INFO - Gemini 2.5 Pro initialized successfully
+2026-04-14 15:21:27 - GeminiComputerUseFlow - INFO - Groq llama-3.2-90b-vision-preview initialized successfully
+2026-04-14 15:21:27 - AutomationEngine - INFO - AutomationEngine initialized: 20260414_152127_394583
+2026-04-14 15:21:27 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-14 15:21:27 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-14 15:21:27 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-14 15:21:32 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-14 15:21:32 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-14 15:21:32 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-14 15:21:32 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-14 15:21:32 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-14 15:21:34 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-14 15:21:34 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-14 15:21:34 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-14 15:21:34 - AutomationEngine - INFO - [NAVIGATE] https://demoqa.com/
+2026-04-14 15:21:41 - AutomationEngine - INFO - [LOADED] https://demoqa.com/
+2026-04-14 15:21:41 - AutomationEngine - INFO - [WEBSITE] Generic selectors (unknown website)
+2026-04-14 15:21:41 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-14 15:21:41 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-14 15:21:41 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 15:21:41 - GeminiComputerUseFlow - INFO - GEMINI 2.5 PRO COMPUTER USE - ENHANCED EXECUTION
+2026-04-14 15:21:41 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 15:21:41 - GeminiComputerUseFlow - INFO - 
+[ITERATION 1/50]
+2026-04-14 15:21:41 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_001_20260414_152141_834849.png
+2026-04-14 15:21:43 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:21:43 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-14 15:21:43 - GeminiComputerUseFlow - WARNING - [FALLBACK] AI analysis failed, using rule-based analysis
+2026-04-14 15:21:53 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: demosite. URL: https://demoqa.com/
+2026-04-14 15:21:53 - GeminiComputerUseFlow - INFO - [ACTION] scroll: down = 300
+2026-04-14 15:21:54 - GeminiComputerUseFlow - INFO - [SCROLL] 300px
+2026-04-14 15:21:55 - GeminiComputerUseFlow - INFO - 
+[ITERATION 2/50]
+2026-04-14 15:21:55 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_002_20260414_152155_483209.png
+2026-04-14 15:21:56 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:21:56 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-14 15:21:56 - GeminiComputerUseFlow - WARNING - [FALLBACK] AI analysis failed, using rule-based analysis
+2026-04-14 15:22:06 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: demosite. URL: https://demoqa.com/
+2026-04-14 15:22:06 - GeminiComputerUseFlow - INFO - [ACTION] scroll: down = 300
+2026-04-14 15:22:07 - GeminiComputerUseFlow - INFO - [SCROLL] 300px
+2026-04-14 15:22:08 - GeminiComputerUseFlow - INFO - 
+[ITERATION 3/50]
+2026-04-14 15:22:08 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_003_20260414_152208_268235.png
+2026-04-14 15:22:08 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:22:09 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-14 15:22:09 - GeminiComputerUseFlow - WARNING - [FALLBACK] AI analysis failed, using rule-based analysis

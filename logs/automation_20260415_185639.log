@@ -1,0 +1,112 @@
+2026-04-15 18:56:39 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-15 18:56:39 - __main__ - INFO - 🚀 WEB AUTOMATION - GROQ + FALLBACK ANALYSIS (NO GEMINI)
+2026-04-15 18:56:39 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-15 18:56:39 - __main__ - INFO - [CONFIG] Browser: Chrome
+2026-04-15 18:56:39 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-15 18:56:39 - __main__ - INFO - [CONFIG] Anti-Bot: Enabled
+2026-04-15 18:56:39 - __main__ - INFO - [GROQ] Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-15 18:56:39 - __main__ - INFO - [FALLBACK] Rule-Based Analysis: Enabled
+
+2026-04-15 18:57:09 - __main__ - INFO - 
+[TASK] Go to youtube.com, search for AR Rahman songs, click first video, extract title and description, provide summary
+2026-04-15 18:57:09 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-15 18:57:09 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-15 18:57:09 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-15 18:57:09 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-15 18:57:09 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-15 18:57:14 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-15 18:57:14 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-15 18:57:14 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-15 18:57:14 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-15 18:57:14 - GroqAutomationEngine - WARNING - [GROQ] API key not found
+2026-04-15 18:57:14 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-15 18:57:14 - ComputerUseLoop - INFO - COMPUTER USE LOOP - GROQ + FALLBACK ANALYSIS
+2026-04-15 18:57:14 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-15 18:57:14 - ComputerUseLoop - INFO - [NAVIGATE] https://youtube.com
+2026-04-15 18:57:21 - ComputerUseLoop - INFO - [WORKFLOW] Type: youtube_search
+2026-04-15 18:57:21 - ComputerUseLoop - INFO - [STAGES] navigate → search → navigate_result → extract → verify
+
+2026-04-15 18:57:21 - ComputerUseLoop - INFO - [ITERATION 1] Stage: navigate
+2026-04-15 18:57:21 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 18:57:21 - ComputerUseLoop - INFO - [ANALYSIS] On YouTube homepage...
+2026-04-15 18:57:21 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 18:57:21 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 18:57:28 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 18:57:28 - ComputerUseLoop - INFO - [STAGE_COMPLETE] Moving to next stage
+2026-04-15 18:57:29 - ComputerUseLoop - INFO - [ITERATION 2] Stage: search
+2026-04-15 18:57:29 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 18:57:29 - ComputerUseLoop - INFO - [ANALYSIS] Found YouTube search box...
+2026-04-15 18:57:29 - ComputerUseLoop - INFO - [DECISION] fill: input[name="search_query"], input#search
+2026-04-15 18:57:29 - ComputerUseLoop - INFO - [ACTION] fill: input[name="search_query"], input#search
+2026-04-15 18:57:30 - project.action_executor_enhanced - INFO - ✓ Filled input: input[name="search_query"], input#search
+2026-04-15 18:57:30 - ComputerUseLoop - INFO - [STAGE_COMPLETE] Moving to next stage
+2026-04-15 18:57:31 - ComputerUseLoop - INFO - [ITERATION 3] Stage: navigate_result
+2026-04-15 18:57:31 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 18:57:32 - ComputerUseLoop - INFO - [ANALYSIS] Fallback action...
+2026-04-15 18:57:32 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 18:57:32 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 18:57:41 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 18:57:43 - ComputerUseLoop - INFO - [ITERATION 4] Stage: navigate_result
+2026-04-15 18:57:43 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 18:57:43 - ComputerUseLoop - INFO - [ANALYSIS] Found video results, clicking first...
+2026-04-15 18:57:43 - ComputerUseLoop - INFO - [DECISION] click: a#video-title
+2026-04-15 18:57:43 - ComputerUseLoop - INFO - [ACTION] click: a#video-title
+2026-04-15 18:57:49 - project.action_executor_enhanced - INFO - ✓ Clicked: a#video-title
+2026-04-15 18:57:49 - ComputerUseLoop - INFO - [STAGE_COMPLETE] Moving to next stage
+2026-04-15 18:57:50 - ComputerUseLoop - INFO - [ITERATION 5] Stage: extract
+2026-04-15 18:57:50 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - [ANALYSIS] Video page loaded...
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - [DECISION] extract: video_info
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - [ACTION] extract: video_info
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - [EXTRACT] video_info
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - [STAGE_COMPLETE] Moving to next stage
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - [TASK_COMPLETE] Automation finished!
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - AUTOMATION RESULTS
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - ======================================================================================================================================================
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Task: Go to youtube.com, search for AR Rahman songs, click first video, extract title ...
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Workflow: youtube_search
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Total Iterations: 5
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Total Actions: 5
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Pages Visited: 2
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Execution Time: 36.7s
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Groq Used: False
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - Fallback Used: True
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - 
+[WORKFLOW HISTORY]
+2026-04-15 18:57:51 - ComputerUseLoop - INFO -   Iter 1: navigate → scroll (True)
+2026-04-15 18:57:51 - ComputerUseLoop - INFO -   Iter 2: search → fill (True)
+2026-04-15 18:57:51 - ComputerUseLoop - INFO -   Iter 3: navigate_result → scroll (True)
+2026-04-15 18:57:51 - ComputerUseLoop - INFO -   Iter 4: navigate_result → click (True)
+2026-04-15 18:57:51 - ComputerUseLoop - INFO -   Iter 5: extract → extract (True)
+2026-04-15 18:57:51 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-15 18:57:51 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-15 18:57:51 - __main__ - INFO - 📊 EXECUTION SUMMARY
+2026-04-15 18:57:51 - __main__ - INFO - ======================================================================================================================================================
+2026-04-15 18:57:51 - __main__ - INFO - 
+Workflow Type: youtube_search
+2026-04-15 18:57:51 - __main__ - INFO - Total Iterations: 5
+2026-04-15 18:57:51 - __main__ - INFO - Actions Executed: 5
+2026-04-15 18:57:51 - __main__ - INFO - Pages Visited: 2
+2026-04-15 18:57:51 - __main__ - INFO - Execution Time: 36.7s
+2026-04-15 18:57:51 - __main__ - INFO - 
+[ENGINES]
+2026-04-15 18:57:51 - __main__ - INFO -   Groq Used: ✗
+2026-04-15 18:57:51 - __main__ - INFO -   Fallback Used: ✓
+2026-04-15 18:57:51 - __main__ - INFO - 
+[PAGES VISITED]
+2026-04-15 18:57:51 - __main__ - INFO -   1. https://www.youtube.com/results?search_query=item...
+2026-04-15 18:57:51 - __main__ - INFO -   2. https://www.youtube.com/...
+2026-04-15 18:57:51 - __main__ - INFO - 
+======================================================================================================================================================
+
+2026-04-15 18:57:51 - __main__ - INFO - [BROWSER] Closing...
+2026-04-15 18:58:26 - __main__ - INFO - [EXIT] Goodbye! 👋

@@ -1,0 +1,83 @@
+2026-04-14 01:01:24 - __main__ - INFO - Database initialized
+2026-04-14 01:01:24 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 01:01:24 - __main__ - INFO - GEMINI 2.5 PRO - REAL WEBSITE AUTOMATION (ANY WEBSITE)
+2026-04-14 01:01:24 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 01:01:24 - __main__ - INFO - [CONFIG] API Key: AIzaSyCFFhXkL4z_IkVQBjLsX1Vw4L...
+2026-04-14 01:01:24 - __main__ - INFO - [CONFIG] Browser: chrome
+2026-04-14 01:01:24 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-14 01:01:24 - __main__ - INFO - [CONFIG] Anti-Bot: True
+
+2026-04-14 01:01:38 - __main__ - INFO - [TASK] Yahoo Finance Stock Price Search
+
+2026-04-14 01:01:38 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-14 01:01:38 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 01:01:38 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 01:01:38 - GeminiComputerUseFlow - INFO - Gemini 2.5 Pro initialized successfully
+2026-04-14 01:01:38 - AutomationEngine - INFO - AutomationEngine initialized: 20260414_010138_462370
+2026-04-14 01:01:38 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-14 01:01:38 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-14 01:01:38 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-14 01:01:39 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-14 01:01:39 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-14 01:01:39 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-14 01:01:39 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-14 01:01:39 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-14 01:01:41 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-14 01:01:41 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-14 01:01:41 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-14 01:01:41 - AutomationEngine - INFO - [NAVIGATE] https://finance.yahoo.com
+2026-04-14 01:01:54 - AutomationEngine - INFO - [LOADED] https://finance.yahoo.com/
+2026-04-14 01:01:54 - AutomationEngine - INFO - 
+[WEBSITE] Detected: YAHOO_FINANCE
+2026-04-14 01:01:54 - AutomationEngine - INFO - [WEBSITE] Selectors optimized for: yahoo_finance
+2026-04-14 01:01:54 - AutomationEngine - INFO - [WORKFLOW] Extraction fields: symbol, current_price, day_high, day_low, market_cap, pe_ratio
+2026-04-14 01:01:55 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-14 01:01:55 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-14 01:01:55 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 01:01:55 - GeminiComputerUseFlow - INFO - GEMINI 2.5 PRO COMPUTER USE - ENHANCED EXECUTION
+2026-04-14 01:01:55 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 01:01:55 - GeminiComputerUseFlow - INFO - 
+[ITERATION 1/50]
+2026-04-14 01:01:55 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_001_20260414_010155_306835.png
+2026-04-14 01:01:56 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 01:01:57 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Yahoo Finance - Stock Market Live, Quotes, Business & Finance News. URL: h...
+2026-04-14 01:01:57 - GeminiComputerUseFlow - INFO - [ACTION] fill: search
+2026-04-14 01:01:57 - GeminiComputerUseFlow - INFO - [EXECUTE] fill: search
+2026-04-14 01:02:00 - GeminiComputerUseFlow - INFO - [COMPLETE] Task completed!
+2026-04-14 01:02:00 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 01:02:00 - GeminiComputerUseFlow - INFO - EXECUTION COMPLETE: 1 iterations, 1 actions, 5.3s
+2026-04-14 01:02:00 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 01:02:00 - AutomationEngine - INFO - [RESULTS] Saved to execution_results\task_20260414_010138_462370.json
+2026-04-14 01:02:00 - AutomationEngine - INFO - 
+[SUCCESS] Task completed in 5.3s
+2026-04-14 01:02:00 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 01:02:00 - __main__ - INFO - EXECUTION RESULTS
+2026-04-14 01:02:00 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 01:02:00 - __main__ - INFO - Status: success
+2026-04-14 01:02:00 - __main__ - INFO - Task ID: 20260414_010138_462370
+2026-04-14 01:02:00 - __main__ - INFO - Navigation URL: https://finance.yahoo.com
+2026-04-14 01:02:01 - __main__ - INFO - Actual URL: https://finance.yahoo.com/
+2026-04-14 01:02:01 - __main__ - INFO - Total Iterations: 1
+2026-04-14 01:02:01 - __main__ - INFO - Total Actions: 1
+2026-04-14 01:02:01 - __main__ - INFO - Pages Visited: 0
+2026-04-14 01:02:01 - __main__ - INFO - Execution Time: 5.3s
+2026-04-14 01:02:01 - __main__ - INFO - Gemini Used: True
+2026-04-14 01:02:01 - __main__ - INFO - Fallback Used: False
+2026-04-14 01:02:01 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 01:02:01 - __main__ - INFO - 
+[INSPECTION] Browser remains open for 30 seconds...
+2026-04-14 01:02:31 - __main__ - INFO - [BROWSER] Closing...
+2026-04-14 01:02:33 - AutomationEngine - INFO - [BROWSER] Closed
+2026-04-14 10:12:01 - __main__ - INFO - [EXIT] Goodbye!

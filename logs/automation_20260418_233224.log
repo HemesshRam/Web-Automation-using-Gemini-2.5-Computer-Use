@@ -1,0 +1,247 @@
+2026-04-18 23:32:24 - __main__ - INFO - Database initialized
+2026-04-18 23:32:24 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-18 23:32:24 - __main__ - INFO - GEMINI 2.5 COMPUTER USE - AGENTIC WEB AUTOMATION (ANY WEBSITE)
+2026-04-18 23:32:24 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-18 23:32:24 - __main__ - INFO - [CONFIG] Computer Use Model: gemini-2.5-computer-use-preview-10-2025
+2026-04-18 23:32:24 - __main__ - INFO - [CONFIG] API Key: AIzaSyDv8kZHSESg95dCFRSeNCCFKp...
+2026-04-18 23:32:24 - __main__ - INFO - [CONFIG] Browser: chrome
+2026-04-18 23:32:24 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-18 23:32:24 - __main__ - INFO - [CONFIG] Anti-Bot: True
+
+2026-04-18 23:35:25 - __main__ - INFO - [TASK] YouTube: Search for the video "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" from Sun TV Official channel , click the link , play the video and provide the summaryNavigate to YouTube and search for 'Make Way For The King - Theme #RAAKA Sun TV Official'. Locate the video uploaded by the Sun TV channel, click to play, and extract the video description and transcript to generate a brief content summary.
+
+2026-04-18 23:35:25 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-18 23:35:25 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-18 23:35:25 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-18 23:35:26 - GeminiComputerUseFlow - INFO - [GEMINI CU] Client initialized - Model: gemini-2.5-computer-use-preview-10-2025
+2026-04-18 23:35:26 - GeminiComputerUseFlow - INFO - [GROQ] Fallback initialized - Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-18 23:35:26 - AutomationEngine - INFO - AutomationEngine initialized: 20260418_233525_320149
+2026-04-18 23:35:26 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-18 23:35:26 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-18 23:35:26 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-18 23:35:28 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-18 23:35:28 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-18 23:35:28 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-18 23:35:28 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-18 23:35:28 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-18 23:35:28 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-18 23:35:28 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-18 23:35:28 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-18 23:35:28 - AutomationEngine - INFO - [NAVIGATE] Direct to https://www.youtube.com
+2026-04-18 23:35:34 - AutomationEngine - INFO - [LOADED] https://www.youtube.com/
+2026-04-18 23:35:34 - AutomationEngine - INFO - 
+[WEBSITE] Detected: YOUTUBE
+2026-04-18 23:35:34 - AutomationEngine - INFO - [WEBSITE] Selectors optimized for: youtube
+2026-04-18 23:35:34 - AutomationEngine - INFO - [WORKFLOW] Extraction fields: title, channel, views, likes, upload_date
+2026-04-18 23:35:34 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-18 23:35:34 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-18 23:35:34 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-18 23:35:34 - GeminiComputerUseFlow - INFO - GEMINI 2.5 COMPUTER USE - AGENTIC EXECUTION ENGINE
+2026-04-18 23:35:34 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-18 23:35:34 - GeminiComputerUseFlow - INFO - [GEMINI CU] Starting Computer Use agentic loop...
+2026-04-18 23:35:34 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 1/50 ---
+2026-04-18 23:35:34 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:35:34 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:35:39 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:35:39 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: open_web_browser({})
+2026-04-18 23:35:39 - GeminiComputerUseFlow - INFO - [GEMINI CU] Browser already open
+2026-04-18 23:35:39 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_001_20260418_233539_665097.png
+2026-04-18 23:35:39 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 2/50 ---
+2026-04-18 23:35:39 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:35:39 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:35:47 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:35:47 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I have successfully navigated to YouTube. The page is asking me to "Try searching to get started".
+I need to search for "Make Way For The King - Theme #RAAKA Sun TV Official" in the search bar located
+2026-04-18 23:35:47 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: type_text_at({'x': 463, 'press_enter': True, 'y': 41, 'text': 'Make Way For The King - Theme #RAAKA Sun TV Official'})
+2026-04-18 23:35:47 - GeminiComputerUseFlow - INFO - [GEMINI CU] Type 'Make Way For The King - Theme #RAAKA Sun TV Offici' at (888, 44)
+2026-04-18 23:35:50 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_002_20260418_233549_778716.png
+2026-04-18 23:35:50 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 3/50 ---
+2026-04-18 23:35:50 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:35:50 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:35:57 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:35:57 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I have evaluated step. I successfully searched for the video.
+The first result, "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" uploaded by "Sun TV" (y=29
+2026-04-18 23:35:57 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: click_at({'y': 199, 'x': 768})
+2026-04-18 23:35:57 - GeminiComputerUseFlow - INFO - [GEMINI CU] Click at (1474, 214)
+2026-04-18 23:35:58 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_003_20260418_233558_089689.png
+2026-04-18 23:35:58 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 4/50 ---
+2026-04-18 23:35:58 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:35:58 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:36:09 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:36:09 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I have evaluated the step. My click was incorrect. The page is still showing the search results. I clicked on the title text (y=199, x=768), but I should have clicked more towards the center of the vi
+2026-04-18 23:36:09 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: click_at({'x': 768, 'y': 209})
+2026-04-18 23:36:09 - GeminiComputerUseFlow - INFO - [GEMINI CU] Click at (1474, 225)
+2026-04-18 23:36:09 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_004_20260418_233609_865648.png
+2026-04-18 23:36:10 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 5/50 ---
+2026-04-18 23:36:10 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:36:10 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:36:21 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:36:21 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I have evaluated the step. My click was still incorrect. The page is *still* showing the search results. The red dot shows I clicked slightly lower but still around the same horizontal area, which is 
+2026-04-18 23:36:21 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: click_at({'x': 373, 'y': 364})
+2026-04-18 23:36:21 - GeminiComputerUseFlow - INFO - [GEMINI CU] Click at (716, 393)
+2026-04-18 23:36:21 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_005_20260418_233621_736495.png
+2026-04-18 23:36:22 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 6/50 ---
+2026-04-18 23:36:22 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:36:22 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:36:37 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:36:37 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I have evaluated the step. It *still* did not work. I am still on the search results page.
+The red dot shows I clicked in the middle of the thumbnail area. I don't understand why clicking the thumbnai
+2026-04-18 23:36:37 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: click_at({'x': 741, 'y': 191})
+2026-04-18 23:36:37 - GeminiComputerUseFlow - INFO - [GEMINI CU] Click at (1422, 206)
+2026-04-18 23:36:37 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_006_20260418_233637_520509.png
+2026-04-18 23:36:37 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 7/50 ---
+2026-04-18 23:36:37 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:36:37 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:36:55 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:36:55 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I have evaluated the step. It STILL did not work. I am persistently clicking in areas that do not navigate me to the video page, despite being part of the video's listing. The red dot shows I clicked 
+2026-04-18 23:36:55 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: click_at({'x': 373, 'y': 364})
+2026-04-18 23:36:55 - GeminiComputerUseFlow - INFO - [GEMINI CU] Click at (716, 393)
+2026-04-18 23:36:56 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_007_20260418_233656_472695.png
+2026-04-18 23:36:56 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 8/50 ---
+2026-04-18 23:36:56 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:36:56 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:37:17 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:37:18 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I am still on the search results page. Clicking the thumbnail center also did not work.
+It seems I am clicking, but no navigation is happening.
+The first video result is:
+"Make Way For The King - Them
+2026-04-18 23:37:18 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: click_at({'x': 597, 'y': 297})
+2026-04-18 23:37:18 - GeminiComputerUseFlow - INFO - [GEMINI CU] Click at (1146, 320)
+2026-04-18 23:37:18 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_008_20260418_233718_673887.png
+2026-04-18 23:37:19 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 9/50 ---
+2026-04-18 23:37:19 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:37:19 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:37:40 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:37:40 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: Unbelievable. Clicking the channel name "Sun TV" (y=297, x=597) ALSO did not navigate away from the search results page. The red dot confirms I clicked the channel name.
+
+It seems I am unable to click
+2026-04-18 23:37:40 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: scroll_document({'direction': 'down'})
+2026-04-18 23:37:40 - GeminiComputerUseFlow - INFO - [GEMINI CU] Scroll down
+2026-04-18 23:37:41 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_009_20260418_233741_331115.png
+2026-04-18 23:37:41 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 10/50 ---
+2026-04-18 23:37:41 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:37:41 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:38:06 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:38:06 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I scrolled down. Now I'll scroll back up to get the first result in view again.
+2026-04-18 23:38:06 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: scroll_document({'direction': 'up'})
+2026-04-18 23:38:06 - GeminiComputerUseFlow - INFO - [GEMINI CU] Scroll up
+2026-04-18 23:38:07 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_010_20260418_233807_240124.png
+2026-04-18 23:38:07 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 11/50 ---
+2026-04-18 23:38:07 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:38:07 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:38:29 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:38:29 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: Okay, back at the top.
+The first result is "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" by Sun TV.
+I am going to try clicking the title text "Make Way 
+2026-04-18 23:38:29 - GeminiComputerUseFlow - INFO - [GEMINI CU] -> Executing: click_at({'x': 741, 'y': 191})
+2026-04-18 23:38:29 - GeminiComputerUseFlow - INFO - [GEMINI CU] Click at (1422, 206)
+2026-04-18 23:38:29 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_011_20260418_233829_645425.png
+2026-04-18 23:38:30 - GeminiComputerUseFlow - INFO - 
+[GEMINI CU] --- Turn 12/50 ---
+2026-04-18 23:38:30 - GeminiComputerUseFlow - INFO - [GEMINI CU] Sending to model...
+2026-04-18 23:38:30 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2026-04-18 23:38:55 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-computer-use-preview-10-2025:generateContent "HTTP/1.1 200 OK"
+2026-04-18 23:38:55 - GeminiComputerUseFlow - INFO - [GEMINI CU] Model: I have evaluated the step, and it failed again. I am still on the search results page.
+The red dot in `last_action_location_screenshot` shows where I clicked, and it appears to be right on the title, 
+2026-04-18 23:38:55 - GeminiComputerUseFlow - INFO - [GEMINI CU] Task finished: I have evaluated the step, and it failed again. I am still on the search results page.
+The red dot in `last_action_location_screenshot` shows where I clicked, and it appears to be right on the title, but it did not navigate.
+
+I am unable to click the link to the video using the `click_at` command de
+2026-04-18 23:38:55 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-18 23:38:55 - GeminiComputerUseFlow - INFO - EXECUTION COMPLETE: 12 iterations, 11 actions, 200.3s [GEMINI CU]
+2026-04-18 23:38:55 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-18 23:38:55 - AutomationEngine - INFO - [RESULTS] Saved to execution_results\task_20260418_233525_320149.json
+2026-04-18 23:38:55 - AutomationEngine - INFO - 
+[SUCCESS] Task completed in 200.3s
+2026-04-18 23:38:55 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-18 23:38:55 - __main__ - INFO - EXECUTION RESULTS
+2026-04-18 23:38:55 - __main__ - INFO - ======================================================================================================================================================
+2026-04-18 23:38:55 - __main__ - INFO - Status: success
+2026-04-18 23:38:55 - __main__ - INFO - Task ID: 20260418_233525_320149
+2026-04-18 23:38:55 - __main__ - INFO - Navigation URL: https://www.youtube.com
+2026-04-18 23:38:55 - __main__ - INFO - Actual URL: https://www.youtube.com/results?search_query=Make+Way+For+The+King+-+Theme+%23RAAKA+Sun+TV+Official
+2026-04-18 23:38:55 - __main__ - INFO - Total Iterations: 12
+2026-04-18 23:38:55 - __main__ - INFO - Total Actions: 11
+2026-04-18 23:38:55 - __main__ - INFO - Pages Visited: 2
+2026-04-18 23:38:55 - __main__ - INFO - Execution Time: 200.3s
+2026-04-18 23:38:55 - __main__ - INFO - Gemini Used: True
+2026-04-18 23:38:55 - __main__ - INFO - Fallback Used: False
+2026-04-18 23:38:55 - __main__ - INFO - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-18 23:38:55 - __main__ - INFO - AI AGENT SUMMARY
+2026-04-18 23:38:55 - __main__ - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-18 23:38:55 - __main__ - INFO -   I have successfully navigated to YouTube. The page is asking me to "Try searching to get started".
+2026-04-18 23:38:55 - __main__ - INFO -   I need to search for "Make Way For The King - Theme #RAAKA Sun TV Official" in the search bar located at the top center of the page. After typing, I will press enter (which `type_text_at` does automatically when `press_enter=True`, but I will explicitly click the search button just to be sure).
+2026-04-18 23:38:55 - __main__ - INFO -   I have evaluated step. I successfully searched for the video.
+2026-04-18 23:38:55 - __main__ - INFO -   The first result, "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" uploaded by "Sun TV" (y=297, x=768), seems to be the correct one. It has 4.8M views and was uploaded 9 days ago.
+2026-04-18 23:38:55 - __main__ - INFO -   I will click on this first video link to open it.
+2026-04-18 23:38:55 - __main__ - INFO -   I have evaluated the step. My click was incorrect. The page is still showing the search results. I clicked on the title text (y=199, x=768), but I should have clicked more towards the center of the video thumbnail area or the title link associated with the first video.
+2026-04-18 23:38:55 - __main__ - INFO -   The red dot shows I clicked slightly above and to the right of where I intended.
+2026-04-18 23:38:55 - __main__ - INFO -   I will try clicking the first video link again, aiming more for the center of the title area "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" associated with Sun TV. The video thumbnail is at (y=364, x=373) and the title starts around (y=178, x=569). I will aim for the title again, but slightly lower.
+2026-04-18 23:38:55 - __main__ - INFO -   I have evaluated the step. My click was still incorrect. The page is *still* showing the search results. The red dot shows I clicked slightly lower but still around the same horizontal area, which is part of the text but maybe not the main link.
+2026-04-18 23:38:55 - __main__ - INFO -   It seems clicking the text title area is not working. I should try clicking directly on the thumbnail image of the first video ("Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" by Sun TV), which is on the left side of the text (y=364, x=373).
+2026-04-18 23:38:55 - __main__ - INFO -   I have evaluated the step. It *still* did not work. I am still on the search results page.
+2026-04-18 23:38:55 - __main__ - INFO -   The red dot shows I clicked in the middle of the thumbnail area. I don't understand why clicking the thumbnail or the title isn't navigating to the video.
+2026-04-18 23:38:55 - __main__ - INFO -   Maybe the clickable area is the title link *text* itself, but I was clicking slightly off.
+2026-04-18 23:38:55 - __main__ - INFO -   The title is "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar". I will try clicking very specifically on the text "Make Way For The King" within that title (y=178, x= 696). Or maybe the channel name "Sun TV" (y=297, x=597) below the title.
+2026-04-18 23:38:55 - __main__ - INFO -   Let me try clicking the channel name "Sun TV" (y=297, x=597) first, maybe that will take me to the channel page where I can find the video. Or maybe it will interact differently. No, I need to click the video link itself.
+2026-04-18 23:38:55 - __main__ - INFO -   I will try clicking the text "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" one more time, aiming for the very beginning of the text. (y=191, x=741) which is part of the title.
+2026-04-18 23:38:55 - __main__ - INFO -   I have evaluated the step. It STILL did not work. I am persistently clicking in areas that do not navigate me to the video page, despite being part of the video's listing. The red dot shows I clicked near the title text again.
+2026-04-18 23:38:55 - __main__ - INFO -   I am going to try clicking the thumbnail (y=364, x=373) one more time, but being very careful with the coordinates, aiming for the absolute center of the large thumbnail image on the left for the first result. Maybe the issue is that the entire area including the thumbnail and text *should* be clickable, but only a very specific part is registering as the link. Let's try the dead center of the thumbnail (y=364, x=373).
+2026-04-18 23:38:55 - __main__ - INFO -   I am still on the search results page. Clicking the thumbnail center also did not work.
+2026-04-18 23:38:55 - __main__ - INFO -   It seems I am clicking, but no navigation is happening.
+2026-04-18 23:38:55 - __main__ - INFO -   The first video result is:
+2026-04-18 23:38:55 - __main__ - INFO -   "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar"
+2026-04-18 23:38:55 - __main__ - INFO -   by Sun TV, 4.8M views, 9 days ago.
+2026-04-18 23:38:55 - __main__ - INFO -   Maybe I should click the channel name "Sun TV" (y=297, x=597) under the first video title, go to the channel's page, and find the video there. It's less direct but clicking the video link/thumbnail isn't working.
+2026-04-18 23:38:55 - __main__ - INFO -   Unbelievable. Clicking the channel name "Sun TV" (y=297, x=597) ALSO did not navigate away from the search results page. The red dot confirms I clicked the channel name.
+2026-04-18 23:38:55 - __main__ - INFO -   It seems I am unable to click any links on this search result page using the `click_at` function with the coordinates I'm providing, even though the red dots appear to be on the correct elements.
+2026-04-18 23:38:55 - __main__ - INFO -   Is there another way to get to the video? Maybe I can construct the URL directly? I don't know the video ID.
+2026-04-18 23:38:55 - __main__ - INFO -   What if I try to interact with the filters or something else to make the page "refresh" its interactability? Or maybe scroll down and up?
+2026-04-18 23:38:55 - __main__ - INFO -   Let me try scrolling down to see more results, then back up, and then try clicking the first video's title "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" (y=191, x=741) again, very precisely.
+2026-04-18 23:38:55 - __main__ - INFO -   I scrolled down. Now I'll scroll back up to get the first result in view again.
+2026-04-18 23:38:55 - __main__ - INFO -   Okay, back at the top.
+2026-04-18 23:38:55 - __main__ - INFO -   The first result is "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" by Sun TV.
+2026-04-18 23:38:55 - __main__ - INFO -   I am going to try clicking the title text "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" (y=191, x=741) one last time, very carefully aiming for the center of the text link. If this fails, I will assume `click_at` is not working as expected on this page and I might have to report I cannot click the link.
+2026-04-18 23:38:55 - __main__ - INFO -   I have evaluated the step, and it failed again. I am still on the search results page.
+2026-04-18 23:38:55 - __main__ - INFO -   The red dot in `last_action_location_screenshot` shows where I clicked, and it appears to be right on the title, but it did not navigate.
+2026-04-18 23:38:55 - __main__ - INFO -   I am unable to click the link to the video using the `click_at` command despite multiple attempts on the thumbnail, title, and channel name.
+2026-04-18 23:38:55 - __main__ - INFO -   However, I can see the title: "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar"
+2026-04-18 23:38:55 - __main__ - INFO -   Channel: Sun TV
+2026-04-18 23:38:55 - __main__ - INFO -   Views: 4.8M views
+2026-04-18 23:38:55 - __main__ - INFO -   Uploaded: 9 days ago
+2026-04-18 23:38:55 - __main__ - INFO -   A short description snippet is visible: "Presenting the Title announcement theme "Make Way For The King" from Iconic star Allu Arjun's #RAAKA. Directed by Atlee..."
+2026-04-18 23:38:55 - __main__ - INFO -   Since I cannot navigate to the video page by clicking, I cannot play it, nor can I get the full description or look for a transcript. I seem to be stuck on the search results page.
+2026-04-18 23:38:55 - __main__ - INFO -   Given the inability to click through to the video page, I can only provide information visible on this search results page for the top hit.
+2026-04-18 23:38:55 - __main__ - INFO -   Summary based on search results:
+2026-04-18 23:38:55 - __main__ - INFO -   The video is titled "Make Way For The King - Theme | #RAAKA | Allu Arjun | Sun Pictures | Atlee | Sai Abhyankkar" and was uploaded by the "Sun TV" channel, which is verified. It has garnered 4.8 million views and was uploaded 9 days ago (relative to April 18, 2026, so around April 9, 2026). A brief part of the description says: "Presenting the Title announcement theme "Make Way For The King" from Iconic star Allu Arjun's #RAAKA. Directed by Atlee...". I was unable to navigate to the video page to play it or get the full description/transcript.
+2026-04-18 23:38:55 - __main__ - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-18 23:38:55 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-18 23:38:55 - __main__ - INFO - 
+[INSPECTION] Browser remains open for 10 seconds...
+2026-04-18 23:39:05 - __main__ - INFO - [BROWSER] Closing...
+2026-04-18 23:39:07 - AutomationEngine - INFO - [BROWSER] Closed
+2026-04-18 23:55:39 - __main__ - INFO - [EXIT] Goodbye!

@@ -1,0 +1,347 @@
+2026-04-10 22:30:35 - __main__ - INFO - Database initialized
+2026-04-10 22:30:35 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-10 22:30:35 - __main__ - INFO - GEMINI 2.5 PRO - ENTERPRISE AGENTIC WEB AUTOMATION FRAMEWORK
+2026-04-10 22:30:35 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-10 22:31:35 - __main__ - INFO - 
+Task received: Go to amazon.com and find the iPhone 17 Pro in Blue color with 256GB storage. Extract and provide: 1. Product name and full specifications 2. Price (current price and any discounts) 3. Product rating and number of reviews 4. Availability status (In Stock / Out of Stock) 5. Seller information 6. Product description summary (first 200 characters). Return the information in a clear, organized format.
+
+2026-04-10 22:31:35 - __main__ - INFO - Initializing browser...
+2026-04-10 22:31:35 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-10 22:31:35 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-10 22:31:35 - GeminiComputerUseFlow - INFO -   [Model] gemini-2.5-pro ready
+2026-04-10 22:31:35 - GeminiComputerUseFlow - INFO -   [Model] gemini-2.0-flash ready
+2026-04-10 22:31:35 - GeminiComputerUseFlow - INFO -   [Model] gemini-2.0-flash-lite ready
+2026-04-10 22:31:35 - GeminiComputerUseFlow - INFO - Model cascade initialized: gemini-2.5-pro => gemini-2.0-flash => gemini-2.0-flash-lite
+2026-04-10 22:31:35 - AutomationEngine - INFO - AutomationEngine initialized: 20260410_223135_393880
+2026-04-10 22:31:35 - AutomationEngine - INFO - Initializing chrome driver...
+2026-04-10 22:31:35 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-10 22:31:35 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-10 22:31:37 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-10 22:31:37 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-10 22:31:37 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-10 22:31:37 - AutomationEngine - INFO - Driver initialized successfully
+2026-04-10 22:31:37 - AutomationEngine - INFO - Window size: 1920x1080
+2026-04-10 22:31:37 - __main__ - INFO - Browser initialized successfully
+
+2026-04-10 22:31:39 - __main__ - INFO - Executing custom task...
+
+2026-04-10 22:31:39 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-10 22:31:39 - AutomationEngine - INFO - TASK EXECUTION - GEMINI 2.5 PRO COMPUTER USE
+2026-04-10 22:31:39 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-10 22:31:39 - AutomationEngine - INFO - [URL EXTRACTION] Found domain: amazon.com -> https://amazon.com
+2026-04-10 22:31:39 - AutomationEngine - INFO - [URL NAVIGATION] Final URL selected: https://amazon.com
+2026-04-10 22:31:39 - AutomationEngine - INFO - [NAVIGATION] Going to https://amazon.com
+2026-04-10 22:31:46 - AutomationEngine - INFO - [NAVIGATION] Successfully loaded. Current URL: https://www.amazon.com/
+2026-04-10 22:31:46 - AutomationEngine - INFO - Initial screenshot captured
+2026-04-10 22:31:46 - AutomationEngine - INFO - Starting Gemini 2.5 Pro Computer Use flow...
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - GEMINI 2.5 PRO - PRODUCTION-GRADE COMPUTER USE FLOW
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - STEP 1/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - [Screenshot] step_001_20260410_223146_543455.png
+2026-04-10 22:31:46 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:31:47 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-10 22:31:47 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:31:48 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-10 22:31:48 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:31:48 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-10 22:31:48 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-10 22:31:48 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-10 22:31:48 - GeminiComputerUseFlow - INFO - [Fallback] Using rule-based analysis
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - [Fallback] Selecting un-visited section: Deliver to
+India
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO -   Current Page: Fallback analysis
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO -   Visible Elements: Deliver to
+India, EN, Hello, sign in
+Account & Lists, Returns
+& Orders, 0
+Cart
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO -   Found 5 navigation elements, selecting un-visited section
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO -   Name: click
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO -     - target: Deliver to
+India
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO -     - details: Clicking un-visited section: Deliver to
+India
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.6
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - Expected Outcome: Progress the task
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-10 22:31:49 - GeminiComputerUseFlow - INFO - [Execute] Action: click | Target: Deliver to
+India
+2026-04-10 22:31:56 - GeminiComputerUseFlow - INFO - [OK] Clicked link:
+2026-04-10 22:31:59 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:31:59 - GeminiComputerUseFlow - INFO - STEP 2/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-10 22:31:59 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:31:59 - GeminiComputerUseFlow - INFO - [Screenshot] step_002_20260410_223159_269313.png
+2026-04-10 22:31:59 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:01 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-10 22:32:01 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:02 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-10 22:32:02 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:02 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-10 22:32:02 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-10 22:32:02 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-10 22:32:02 - GeminiComputerUseFlow - INFO - [Fallback] Using rule-based analysis
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - [Fallback] Selecting un-visited section: Deliver to
+India
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO -   Current Page: Fallback analysis
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO -   Visible Elements: Deliver to
+India, EN, Hello, sign in
+Account & Lists, Returns
+& Orders, 0
+Cart
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO -   Found 5 navigation elements, selecting un-visited section
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO -   Name: click
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO -     - target: Deliver to
+India
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO -     - details: Clicking un-visited section: Deliver to
+India
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.6
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - Expected Outcome: Progress the task
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-10 22:32:03 - GeminiComputerUseFlow - INFO - [Execute] Action: click | Target: Deliver to
+India
+2026-04-10 22:32:09 - GeminiComputerUseFlow - INFO - [OK] Clicked link:
+2026-04-10 22:32:12 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:32:12 - GeminiComputerUseFlow - INFO - STEP 3/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-10 22:32:12 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:32:12 - GeminiComputerUseFlow - INFO - [Screenshot] step_003_20260410_223212_289097.png
+2026-04-10 22:32:12 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:13 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-10 22:32:13 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:13 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-10 22:32:13 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:14 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-10 22:32:14 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-10 22:32:14 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - [Fallback] Using rule-based analysis
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - [Fallback] Selecting un-visited section: Deliver to
+India
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO -   Current Page: Fallback analysis
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO -   Visible Elements: Deliver to
+India, EN, Hello, sign in
+Account & Lists, Returns
+& Orders, 0
+Cart
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO -   Found 5 navigation elements, selecting un-visited section
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO -   Name: click
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO -     - target: Deliver to
+India
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO -     - details: Clicking un-visited section: Deliver to
+India
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.6
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - Expected Outcome: Progress the task
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-10 22:32:14 - GeminiComputerUseFlow - INFO - [Execute] Action: click | Target: Deliver to
+India
+2026-04-10 22:32:20 - GeminiComputerUseFlow - INFO - [OK] Clicked link:
+2026-04-10 22:32:24 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:32:24 - GeminiComputerUseFlow - INFO - STEP 4/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-10 22:32:24 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:32:24 - GeminiComputerUseFlow - INFO - [Screenshot] step_004_20260410_223224_005567.png
+2026-04-10 22:32:24 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:24 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-10 22:32:24 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:25 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:25 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-10 22:32:25 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-10 22:32:25 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - [Fallback] Using rule-based analysis
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - [Fallback] Selecting un-visited section: Deliver to
+India
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO -   Current Page: Fallback analysis
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO -   Visible Elements: Deliver to
+India, EN, Hello, sign in
+Account & Lists, Returns
+& Orders, 0
+Cart
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO -   Found 5 navigation elements, selecting un-visited section
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO -   Name: click
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO -     - target: Deliver to
+India
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO -     - details: Clicking un-visited section: Deliver to
+India
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.6
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - Expected Outcome: Progress the task
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-10 22:32:25 - GeminiComputerUseFlow - INFO - [Execute] Action: click | Target: Deliver to
+India
+2026-04-10 22:32:32 - GeminiComputerUseFlow - INFO - [OK] Clicked link:
+2026-04-10 22:32:35 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:32:35 - GeminiComputerUseFlow - INFO - STEP 5/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-10 22:32:35 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:32:35 - GeminiComputerUseFlow - INFO - [Screenshot] step_005_20260410_223235_422904.png
+2026-04-10 22:32:35 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:36 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-10 22:32:36 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:36 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-10 22:32:36 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:37 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-10 22:32:37 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-10 22:32:37 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - [Fallback] Using rule-based analysis
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - [Fallback] Selecting un-visited section: Deliver to
+India
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO -   Current Page: Fallback analysis
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO -   Visible Elements: Deliver to
+India, EN, Hello, sign in
+Account & Lists, Returns
+& Orders, 0
+Cart
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO -   Found 5 navigation elements, selecting un-visited section
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO -   Name: click
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO -     - target: Deliver to
+India
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO -     - details: Clicking un-visited section: Deliver to
+India
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.6
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - Expected Outcome: Progress the task
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-10 22:32:37 - GeminiComputerUseFlow - INFO - [Execute] Action: click | Target: Deliver to
+India
+2026-04-10 22:32:44 - GeminiComputerUseFlow - INFO - [OK] Clicked link:
+2026-04-10 22:32:47 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:32:47 - GeminiComputerUseFlow - INFO - STEP 6/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-10 22:32:47 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:32:47 - GeminiComputerUseFlow - INFO - [Screenshot] step_006_20260410_223247_091030.png
+2026-04-10 22:32:47 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:47 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-10 22:32:47 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:48 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:48 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-10 22:32:48 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-10 22:32:48 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - [Fallback] Using rule-based analysis
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - [Fallback] Selecting un-visited section: Deliver to
+India
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO -   Current Page: Fallback analysis
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO -   Visible Elements: Deliver to
+India, EN, Hello, sign in
+Account & Lists, Returns
+& Orders, 0
+Cart
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO -   Found 5 navigation elements, selecting un-visited section
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO -   Name: click
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO -     - target: Deliver to
+India
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO -     - details: Clicking un-visited section: Deliver to
+India
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.6
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - Expected Outcome: Progress the task
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-10 22:32:48 - GeminiComputerUseFlow - INFO - [Execute] Action: click | Target: Deliver to
+India
+2026-04-10 22:32:55 - GeminiComputerUseFlow - INFO - [OK] Clicked link:
+2026-04-10 22:32:58 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:32:58 - GeminiComputerUseFlow - INFO - STEP 7/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-10 22:32:58 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:32:58 - GeminiComputerUseFlow - INFO - [Screenshot] step_007_20260410_223258_639876.png
+2026-04-10 22:32:58 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:59 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - EXECUTION COMPLETE - FINAL REPORT
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - Task: Go to amazon.com and find the iPhone 17 Pro in Blue color with 256GB storage. Extract and provide: 1
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - Total Iterations: 7
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - Total Actions: 6
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - Execution Time: 73.18s
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - 
+Pages Navigated: 1
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO -   - https://www.amazon.com/ref=nav_logo
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - 
+Status: SUCCESS
+2026-04-10 22:32:59 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-10 22:32:59 - __main__ - INFO - Closing browser...
+2026-04-10 22:33:01 - __main__ - INFO - Interrupted

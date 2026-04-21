@@ -1,0 +1,64 @@
+2026-04-16 21:38:33 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-16 21:38:33 - __main__ - INFO - 🚀 WEB AUTOMATION - GROQ + FALLBACK ANALYSIS (NO GEMINI)
+2026-04-16 21:38:33 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-16 21:38:33 - __main__ - INFO - [CONFIG] Browser: Chrome
+2026-04-16 21:38:33 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-16 21:38:33 - __main__ - INFO - [CONFIG] Anti-Bot: Enabled
+2026-04-16 21:38:33 - __main__ - INFO - [GROQ] Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-16 21:38:33 - __main__ - INFO - [FALLBACK] Rule-Based Analysis: Enabled
+
+2026-04-16 21:38:48 - __main__ - INFO - 
+[TASK] Go to amazon.com, search for iPhone 17 Pro, extract all variants, pricing, and provide summary
+2026-04-16 21:38:48 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-16 21:38:48 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 21:38:48 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 21:38:48 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-16 21:38:48 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-16 21:38:51 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-16 21:38:51 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-16 21:38:51 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-16 21:38:51 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-16 21:38:51 - OpenAIAutomationEngine - WARNING - ⚠️ [OPENAI] API key not found in .env
+2026-04-16 21:38:51 - ComputerUseLoop - INFO - 
+====================================================================================================
+2026-04-16 21:38:51 - ComputerUseLoop - INFO - 🤖 AGENTIC COMPUTER USE LOOP STARTED
+2026-04-16 21:38:51 - ComputerUseLoop - INFO - ====================================================================================================
+2026-04-16 21:38:51 - ComputerUseLoop - INFO - [NAVIGATE] https://amazon.com
+2026-04-16 21:38:56 - ComputerUseLoop - INFO - 
+[ITERATION 1] Stage: navigate
+2026-04-16 21:38:56 - OpenAIAutomationEngine - ERROR - [OPENAI] Cannot execute: API key missing. Falling back to safe scroll.
+2026-04-16 21:38:56 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 21:38:56 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.
+2026-04-16 21:39:06 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-16 21:39:07 - ComputerUseLoop - INFO - 
+[ITERATION 2] Stage: navigate
+2026-04-16 21:39:07 - OpenAIAutomationEngine - ERROR - [OPENAI] Cannot execute: API key missing. Falling back to safe scroll.
+2026-04-16 21:39:07 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 21:39:07 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.
+2026-04-16 21:39:18 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-16 21:39:19 - ComputerUseLoop - INFO - 
+[ITERATION 3] Stage: navigate
+2026-04-16 21:39:19 - OpenAIAutomationEngine - ERROR - [OPENAI] Cannot execute: API key missing. Falling back to safe scroll.
+2026-04-16 21:39:19 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 21:39:19 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.
+2026-04-16 21:39:29 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-16 21:39:30 - ComputerUseLoop - INFO - 
+[ITERATION 4] Stage: navigate
+2026-04-16 21:39:30 - OpenAIAutomationEngine - ERROR - [OPENAI] Cannot execute: API key missing. Falling back to safe scroll.
+2026-04-16 21:39:30 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 21:39:30 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.
+2026-04-16 21:39:39 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-16 21:39:40 - ComputerUseLoop - INFO - 
+[ITERATION 5] Stage: navigate
+2026-04-16 21:39:40 - OpenAIAutomationEngine - ERROR - [OPENAI] Cannot execute: API key missing. Falling back to safe scroll.
+2026-04-16 21:39:40 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 21:39:40 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.
+2026-04-16 21:39:48 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-16 21:39:49 - ComputerUseLoop - INFO - 
+[ITERATION 6] Stage: navigate
+2026-04-16 21:39:49 - OpenAIAutomationEngine - ERROR - [OPENAI] Cannot execute: API key missing. Falling back to safe scroll.
+2026-04-16 21:39:49 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 21:39:49 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.

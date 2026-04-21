@@ -1,0 +1,405 @@
+2026-04-16 15:42:22 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-16 15:42:22 - __main__ - INFO - 🚀 WEB AUTOMATION - GROQ + FALLBACK ANALYSIS (NO GEMINI)
+2026-04-16 15:42:22 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-16 15:42:22 - __main__ - INFO - [CONFIG] Browser: Chrome
+2026-04-16 15:42:22 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-16 15:42:22 - __main__ - INFO - [CONFIG] Anti-Bot: Enabled
+2026-04-16 15:42:22 - __main__ - INFO - [GROQ] Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-16 15:42:22 - __main__ - INFO - [FALLBACK] Rule-Based Analysis: Enabled
+
+2026-04-16 15:42:43 - __main__ - INFO - 
+[TASK] Go to youtube.com, search for AR Rahman songs, click first video, extract title and description, provide summary
+2026-04-16 15:42:43 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-16 15:42:43 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 15:42:43 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 15:42:43 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-16 15:42:43 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-16 15:42:51 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-16 15:42:51 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-16 15:42:51 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-16 15:42:51 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-16 15:42:52 - GroqAutomationEngine - INFO - ✅ Groq initialized (meta-llama/llama-4-scout)
+2026-04-16 15:42:52 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-16 15:42:52 - ComputerUseLoop - INFO - COMPUTER USE LOOP - ENHANCED (All 3 Pillars Implemented)
+2026-04-16 15:42:52 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-16 15:42:52 - ComputerUseLoop - INFO - [NAVIGATE] https://youtube.com
+2026-04-16 15:43:06 - ComputerUseLoop - INFO - [WORKFLOW] Type: youtube_search
+2026-04-16 15:43:06 - ComputerUseLoop - INFO - [STAGES] navigate → search → navigate_result → extract → verify
+
+2026-04-16 15:43:06 - ComputerUseLoop - INFO - [ITERATION 1] Stage: navigate
+2026-04-16 15:43:06 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:43:07 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:43:07 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage, which is the correct starting point fo...
+2026-04-16 15:43:07 - ComputerUseLoop - INFO - [DECISION] fill: #search
+2026-04-16 15:43:07 - ComputerUseLoop - INFO - [ACTION] fill: #search
+2026-04-16 15:43:12 - project.action_executor_enhanced - ERROR - ✗ Fill failed #search: Message: element not interactable
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77b5b0245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff77b5b02b0+14740]
+	chromedriver!(No symbol) [0x7ff77b31d5b6]
+	chromedriver!(No symbol) [0x7ff77b3781f4]
+	chromedriver!(No symbol) [0x7ff77b36b106]
+	chromedriver!(No symbol) [0x7ff77b39ff6a]
+	chromedriver!(No symbol) [0x7ff77b36a986]
+	chromedriver!(No symbol) [0x7ff77b3c4818]
+	chromedriver!(No symbol) [0x7ff77b369018]
+	chromedriver!(No symbol) [0x7ff77b369f03]
+	chromedriver!GetHandleVerifier [0x7ff77b8c58f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff77b8bfe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff77b8e30b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff77b5cd3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff77b5d600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff77b5b9634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff77b5b97e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff77b59e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7fff5fc0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff60bec48c+2c]
+
+2026-04-16 15:43:13 - ComputerUseLoop - INFO - [ITERATION 2] Stage: navigate
+2026-04-16 15:43:13 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:43:13 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:43:13 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:43:13 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is present but the prev...
+2026-04-16 15:43:13 - ComputerUseLoop - INFO - [DECISION] click: #search
+2026-04-16 15:43:13 - ComputerUseLoop - INFO - [ACTION] click: #search
+2026-04-16 15:43:29 - project.action_executor_enhanced - ERROR - ✗ All click methods failed for #search
+2026-04-16 15:43:29 - project.action_executor_enhanced - ERROR - ✗ Click failed unexpectedly #search: cannot access local variable 'e1' where it is not associated with a value
+2026-04-16 15:43:30 - ComputerUseLoop - INFO - [ITERATION 3] Stage: navigate
+2026-04-16 15:43:30 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:43:30 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:43:30 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:43:30 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:43:30 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:43:44 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:43:46 - ComputerUseLoop - INFO - [ITERATION 4] Stage: navigate
+2026-04-16 15:43:47 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:43:47 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:43:47 - ComputerUseLoop - INFO - [ANALYSIS] We are currently on the YouTube homepage. The page contains various navigation l...
+2026-04-16 15:43:47 - ComputerUseLoop - INFO - [DECISION] fill: #search
+2026-04-16 15:43:47 - ComputerUseLoop - INFO - [ACTION] fill: #search
+2026-04-16 15:43:52 - project.action_executor_enhanced - ERROR - ✗ Fill failed #search: Message: element not interactable
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77b5b0245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff77b5b02b0+14740]
+	chromedriver!(No symbol) [0x7ff77b31d5b6]
+	chromedriver!(No symbol) [0x7ff77b3781f4]
+	chromedriver!(No symbol) [0x7ff77b36b106]
+	chromedriver!(No symbol) [0x7ff77b39ff6a]
+	chromedriver!(No symbol) [0x7ff77b36a986]
+	chromedriver!(No symbol) [0x7ff77b3c4818]
+	chromedriver!(No symbol) [0x7ff77b369018]
+	chromedriver!(No symbol) [0x7ff77b369f03]
+	chromedriver!GetHandleVerifier [0x7ff77b8c58f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff77b8bfe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff77b8e30b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff77b5cd3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff77b5d600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff77b5b9634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff77b5b97e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff77b59e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7fff5fc0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff60bec48c+2c]
+
+2026-04-16 15:43:53 - ComputerUseLoop - INFO - [ITERATION 5] Stage: navigate
+2026-04-16 15:43:53 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:43:53 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:43:53 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:43:53 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is present but the prev...
+2026-04-16 15:43:53 - ComputerUseLoop - INFO - [DECISION] fill: #search-input
+2026-04-16 15:43:53 - ComputerUseLoop - INFO - [ACTION] fill: #search-input
+2026-04-16 15:44:10 - project.action_executor_enhanced - WARNING - ✗ Input not found: #search-input
+2026-04-16 15:44:11 - ComputerUseLoop - INFO - [ITERATION 6] Stage: navigate
+2026-04-16 15:44:11 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:44:11 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:44:11 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:44:11 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:44:11 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:44:23 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:44:25 - ComputerUseLoop - INFO - [ITERATION 7] Stage: navigate
+2026-04-16 15:44:26 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:44:26 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:44:26 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The page contains various navigation l...
+2026-04-16 15:44:26 - ComputerUseLoop - INFO - [DECISION] fill: input#search
+2026-04-16 15:44:26 - ComputerUseLoop - INFO - [ACTION] fill: input#search
+2026-04-16 15:44:42 - project.action_executor_enhanced - WARNING - ✗ Input not found: input#search
+2026-04-16 15:44:43 - ComputerUseLoop - INFO - [ITERATION 8] Stage: navigate
+2026-04-16 15:44:44 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:44:44 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:44:44 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:44:44 - ComputerUseLoop - INFO - [ANALYSIS] We are currently on the YouTube homepage. The page contains various navigation l...
+2026-04-16 15:44:44 - ComputerUseLoop - INFO - [DECISION] fill: input#search
+2026-04-16 15:44:44 - ComputerUseLoop - INFO - [ACTION] fill: input#search
+2026-04-16 15:45:00 - project.action_executor_enhanced - WARNING - ✗ Input not found: input#search
+2026-04-16 15:45:01 - ComputerUseLoop - INFO - [ITERATION 9] Stage: navigate
+2026-04-16 15:45:01 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:45:01 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:45:01 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:45:01 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:45:01 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:45:14 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:45:16 - ComputerUseLoop - INFO - [ITERATION 10] Stage: navigate
+2026-04-16 15:45:17 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:45:17 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:45:17 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage, which is the correct starting point fo...
+2026-04-16 15:45:17 - ComputerUseLoop - INFO - [DECISION] fill: #search
+2026-04-16 15:45:17 - ComputerUseLoop - INFO - [ACTION] fill: #search
+2026-04-16 15:45:22 - project.action_executor_enhanced - ERROR - ✗ Fill failed #search: Message: element not interactable
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77b5b0245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff77b5b02b0+14740]
+	chromedriver!(No symbol) [0x7ff77b31d5b6]
+	chromedriver!(No symbol) [0x7ff77b3781f4]
+	chromedriver!(No symbol) [0x7ff77b36b106]
+	chromedriver!(No symbol) [0x7ff77b39ff6a]
+	chromedriver!(No symbol) [0x7ff77b36a986]
+	chromedriver!(No symbol) [0x7ff77b3c4818]
+	chromedriver!(No symbol) [0x7ff77b369018]
+	chromedriver!(No symbol) [0x7ff77b369f03]
+	chromedriver!GetHandleVerifier [0x7ff77b8c58f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff77b8bfe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff77b8e30b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff77b5cd3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff77b5d600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff77b5b9634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff77b5b97e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff77b59e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7fff5fc0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff60bec48c+2c]
+
+2026-04-16 15:45:23 - ComputerUseLoop - INFO - [ITERATION 11] Stage: navigate
+2026-04-16 15:45:24 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:45:24 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:45:24 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:45:24 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is present but previous...
+2026-04-16 15:45:24 - ComputerUseLoop - INFO - [DECISION] fill: #search-input
+2026-04-16 15:45:24 - ComputerUseLoop - INFO - [ACTION] fill: #search-input
+2026-04-16 15:45:40 - project.action_executor_enhanced - WARNING - ✗ Input not found: #search-input
+2026-04-16 15:45:41 - ComputerUseLoop - INFO - [ITERATION 12] Stage: navigate
+2026-04-16 15:45:41 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:45:41 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:45:41 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:45:41 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:45:41 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:45:53 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:45:55 - ComputerUseLoop - INFO - [ITERATION 13] Stage: navigate
+2026-04-16 15:45:56 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:45:56 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:45:56 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The page contains various navigation l...
+2026-04-16 15:45:56 - ComputerUseLoop - INFO - [DECISION] fill: input#search
+2026-04-16 15:45:56 - ComputerUseLoop - INFO - [ACTION] fill: input#search
+2026-04-16 15:46:12 - project.action_executor_enhanced - WARNING - ✗ Input not found: input#search
+2026-04-16 15:46:13 - ComputerUseLoop - INFO - [ITERATION 14] Stage: navigate
+2026-04-16 15:46:14 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:46:14 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:46:14 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:46:14 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is present but the prev...
+2026-04-16 15:46:14 - ComputerUseLoop - INFO - [DECISION] click: input#search
+2026-04-16 15:46:14 - ComputerUseLoop - INFO - [ACTION] click: input#search
+2026-04-16 15:46:30 - project.action_executor_enhanced - WARNING - ✗ Element not found (timeout): input#search
+2026-04-16 15:46:31 - ComputerUseLoop - INFO - [ITERATION 15] Stage: navigate
+2026-04-16 15:46:31 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:46:31 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:46:31 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:46:31 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:46:31 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:46:43 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:46:45 - ComputerUseLoop - INFO - [ITERATION 16] Stage: navigate
+2026-04-16 15:46:46 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:46:46 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:46:46 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is visible, which allow...
+2026-04-16 15:46:46 - ComputerUseLoop - INFO - [DECISION] fill: #search
+2026-04-16 15:46:46 - ComputerUseLoop - INFO - [ACTION] fill: #search
+2026-04-16 15:46:52 - project.action_executor_enhanced - ERROR - ✗ Fill failed #search: Message: element not interactable
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77b5b0245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff77b5b02b0+14740]
+	chromedriver!(No symbol) [0x7ff77b31d5b6]
+	chromedriver!(No symbol) [0x7ff77b3781f4]
+	chromedriver!(No symbol) [0x7ff77b36b106]
+	chromedriver!(No symbol) [0x7ff77b39ff6a]
+	chromedriver!(No symbol) [0x7ff77b36a986]
+	chromedriver!(No symbol) [0x7ff77b3c4818]
+	chromedriver!(No symbol) [0x7ff77b369018]
+	chromedriver!(No symbol) [0x7ff77b369f03]
+	chromedriver!GetHandleVerifier [0x7ff77b8c58f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff77b8bfe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff77b8e30b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff77b5cd3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff77b5d600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff77b5b9634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff77b5b97e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff77b59e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7fff5fc0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff60bec48c+2c]
+
+2026-04-16 15:46:53 - ComputerUseLoop - INFO - [ITERATION 17] Stage: navigate
+2026-04-16 15:46:53 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:46:53 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:46:53 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:46:53 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is present but the prev...
+2026-04-16 15:46:53 - ComputerUseLoop - INFO - [DECISION] fill: #search-input
+2026-04-16 15:46:53 - ComputerUseLoop - INFO - [ACTION] fill: #search-input
+2026-04-16 15:47:09 - project.action_executor_enhanced - WARNING - ✗ Input not found: #search-input
+2026-04-16 15:47:10 - ComputerUseLoop - INFO - [ITERATION 18] Stage: navigate
+2026-04-16 15:47:10 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:47:10 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:47:10 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:47:10 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:47:10 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:47:22 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:47:24 - ComputerUseLoop - INFO - [ITERATION 19] Stage: navigate
+2026-04-16 15:47:25 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:47:25 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:47:25 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage, which is the correct starting point....
+2026-04-16 15:47:25 - ComputerUseLoop - INFO - [DECISION] fill: #search
+2026-04-16 15:47:25 - ComputerUseLoop - INFO - [ACTION] fill: #search
+2026-04-16 15:47:30 - project.action_executor_enhanced - ERROR - ✗ Fill failed #search: Message: element not interactable
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77b5b0245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff77b5b02b0+14740]
+	chromedriver!(No symbol) [0x7ff77b31d5b6]
+	chromedriver!(No symbol) [0x7ff77b3781f4]
+	chromedriver!(No symbol) [0x7ff77b36b106]
+	chromedriver!(No symbol) [0x7ff77b39ff6a]
+	chromedriver!(No symbol) [0x7ff77b36a986]
+	chromedriver!(No symbol) [0x7ff77b3c4818]
+	chromedriver!(No symbol) [0x7ff77b369018]
+	chromedriver!(No symbol) [0x7ff77b369f03]
+	chromedriver!GetHandleVerifier [0x7ff77b8c58f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff77b8bfe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff77b8e30b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff77b5cd3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff77b5d600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff77b5b9634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff77b5b97e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff77b59e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7fff5fc0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff60bec48c+2c]
+
+2026-04-16 15:47:31 - ComputerUseLoop - INFO - [ITERATION 20] Stage: navigate
+2026-04-16 15:47:32 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:47:32 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:47:32 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:47:32 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is present but the prev...
+2026-04-16 15:47:32 - ComputerUseLoop - INFO - [DECISION] fill: #search-input
+2026-04-16 15:47:32 - ComputerUseLoop - INFO - [ACTION] fill: #search-input
+2026-04-16 15:47:48 - project.action_executor_enhanced - WARNING - ✗ Input not found: #search-input
+2026-04-16 15:47:49 - ComputerUseLoop - INFO - [ITERATION 21] Stage: navigate
+2026-04-16 15:47:49 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:47:49 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:47:49 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:47:49 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:47:49 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:48:01 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:48:03 - ComputerUseLoop - INFO - [ITERATION 22] Stage: navigate
+2026-04-16 15:48:04 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:48:04 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:48:04 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The page contains various navigation l...
+2026-04-16 15:48:04 - ComputerUseLoop - INFO - [DECISION] fill: input#search
+2026-04-16 15:48:04 - ComputerUseLoop - INFO - [ACTION] fill: input#search
+2026-04-16 15:48:20 - project.action_executor_enhanced - WARNING - ✗ Input not found: input#search
+2026-04-16 15:48:21 - ComputerUseLoop - INFO - [ITERATION 23] Stage: navigate
+2026-04-16 15:48:22 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:48:22 - GroqAutomationEngine - INFO - [GROQ] Self-correcting from 1 previous failures
+2026-04-16 15:48:22 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:48:22 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage. The search bar is visible, but the pre...
+2026-04-16 15:48:22 - ComputerUseLoop - INFO - [DECISION] click: input#search
+2026-04-16 15:48:22 - ComputerUseLoop - INFO - [ACTION] click: input#search
+2026-04-16 15:48:38 - project.action_executor_enhanced - WARNING - ✗ Element not found (timeout): input#search
+2026-04-16 15:48:39 - ComputerUseLoop - INFO - [ITERATION 24] Stage: navigate
+2026-04-16 15:48:39 - ComputerUseLoop - WARNING - 🔄 [LOOP DETECTED] AI is stuck. Forcing Rule-Based Fallback Engine...
+2026-04-16 15:48:39 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Loop Detected)
+2026-04-16 15:48:39 - ComputerUseLoop - INFO - [ANALYSIS] Need to navigate to YouTube...
+2026-04-16 15:48:39 - ComputerUseLoop - INFO - [DECISION] navigate: https://youtube.com
+2026-04-16 15:48:39 - ComputerUseLoop - INFO - [ACTION] navigate: https://youtube.com
+2026-04-16 15:48:51 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://youtube.com
+2026-04-16 15:48:53 - ComputerUseLoop - INFO - [ITERATION 25] Stage: navigate
+2026-04-16 15:48:54 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-16 15:48:54 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq (with AI Memory)
+2026-04-16 15:48:54 - ComputerUseLoop - INFO - [ANALYSIS] The current page is the YouTube homepage, which is the correct starting point....
+2026-04-16 15:48:54 - ComputerUseLoop - INFO - [DECISION] fill: #search
+2026-04-16 15:48:54 - ComputerUseLoop - INFO - [ACTION] fill: #search
+2026-04-16 15:48:59 - project.action_executor_enhanced - ERROR - ✗ Fill failed #search: Message: element not interactable
+  (Session info: chrome=147.0.7727.56); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x7ff77b5b0245+146d5]
+	chromedriver!GetHandleVerifier [0x7ff77b5b02b0+14740]
+	chromedriver!(No symbol) [0x7ff77b31d5b6]
+	chromedriver!(No symbol) [0x7ff77b3781f4]
+	chromedriver!(No symbol) [0x7ff77b36b106]
+	chromedriver!(No symbol) [0x7ff77b39ff6a]
+	chromedriver!(No symbol) [0x7ff77b36a986]
+	chromedriver!(No symbol) [0x7ff77b3c4818]
+	chromedriver!(No symbol) [0x7ff77b369018]
+	chromedriver!(No symbol) [0x7ff77b369f03]
+	chromedriver!GetHandleVerifier [0x7ff77b8c58f9+329d89]
+	chromedriver!GetHandleVerifier [0x7ff77b8bfe46+3242d6]
+	chromedriver!GetHandleVerifier [0x7ff77b8e30b2+347542]
+	chromedriver!GetHandleVerifier [0x7ff77b5cd3d5+31865]
+	chromedriver!GetHandleVerifier [0x7ff77b5d600c+3a49c]
+	chromedriver!GetHandleVerifier [0x7ff77b5b9634+1dac4]
+	chromedriver!GetHandleVerifier [0x7ff77b5b97e6+1dc76]
+	chromedriver!GetHandleVerifier [0x7ff77b59e2f7+2787]
+	KERNEL32!BaseThreadInitThunk [0x7fff5fc0e8d7+17]
+	ntdll!RtlUserThreadStart [0x7fff60bec48c+2c]
+
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - AUTOMATION RESULTS (ENHANCED)
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - ======================================================================================================================================================
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Task: Go to youtube.com, search for AR Rahman songs, click first video, extract title ...
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Workflow: youtube_search
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Total Iterations: 25
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Total Actions: 8
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Pages Visited: 1
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Execution Time: 368.0s
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Groq Used: True
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - Fallback Used: False
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - 
+[ENHANCED FEATURES ENABLED]
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   ✓ Pillar 1 - DOM Distillation: True
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   ✓ Pillar 2 - Network Waiting: True
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   ✓ Pillar 3 - Indestructible Executor: True
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   ✓ Loop Detection: True
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   ✓ AI Memory System: True
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - 
+[WORKFLOW HISTORY]
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   Iter 21: navigate → navigate on https://youtube.com (True)
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   Iter 22: navigate → fill on input#search (False)
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   Iter 23: navigate → click on input#search (False)
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   Iter 24: navigate → navigate on https://youtube.com (True)
+2026-04-16 15:49:00 - ComputerUseLoop - INFO -   Iter 25: navigate → fill on #search (False)
+2026-04-16 15:49:00 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-16 15:49:00 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-16 15:49:00 - __main__ - INFO - 📊 EXECUTION SUMMARY
+2026-04-16 15:49:00 - __main__ - INFO - ======================================================================================================================================================
+2026-04-16 15:49:00 - __main__ - INFO - 
+Workflow Type: youtube_search
+2026-04-16 15:49:00 - __main__ - INFO - Total Iterations: 25
+2026-04-16 15:49:00 - __main__ - INFO - Actions Executed: 8
+2026-04-16 15:49:00 - __main__ - INFO - Pages Visited: 1
+2026-04-16 15:49:00 - __main__ - INFO - Execution Time: 368.0s
+2026-04-16 15:49:00 - __main__ - INFO - 
+[ENGINES]
+2026-04-16 15:49:00 - __main__ - INFO -   Groq Used: ✓
+2026-04-16 15:49:00 - __main__ - INFO -   Fallback Used: ✗
+2026-04-16 15:49:00 - __main__ - INFO - 
+[PAGES VISITED]
+2026-04-16 15:49:00 - __main__ - INFO -   1. https://www.youtube.com/...
+2026-04-16 15:49:00 - __main__ - INFO - 
+======================================================================================================================================================
+
+2026-04-16 15:49:00 - __main__ - INFO - [BROWSER] Closing...
+2026-04-16 15:57:29 - __main__ - INFO - [EXIT] Goodbye! 👋

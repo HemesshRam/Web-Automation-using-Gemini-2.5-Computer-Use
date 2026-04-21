@@ -1,0 +1,20 @@
+{
+  "task_id": "20260418_232525_913128",
+  "total_iterations": 2,
+  "total_actions": 1,
+  "unique_pages": [
+    "https://www.youtube.com/results?search_query=Make+Way+For+The+King+-+Theme+%7C+%23RAAKA+%7C+Allu+Arjun+%7C+Sun+Pictures+%7C+Atlee+%7C+Sai+Abhyankkar+Sun+TV+Official"
+  ],
+  "status": "success",
+  "success": true,
+  "execution_time": 18.80548,
+  "gemini_used": true,
+  "fallback_used": false,
+  "engine": "gemini-2.5-pro-enhanced",
+  "screenshot_directory": "screenshots\\20260418_232525_913128",
+  "navigation_url": "https://www.youtube.com",
+  "actual_url": "https://www.youtube.com/results?search_query=Make+Way+For+The+King+-+Theme+%7C+%23RAAKA+%7C+Allu+Arjun+%7C+Sun+Pictures+%7C+Atlee+%7C+Sai+Abhyankkar+Sun+TV+Official",
+  "website_type": "youtube",
+  "workflow_applied": true,
+  "timestamp": "2026-04-18T23:25:55.095396"
+}

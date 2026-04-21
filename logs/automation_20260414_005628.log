@@ -1,0 +1,143 @@
+2026-04-14 00:56:28 - __main__ - INFO - Database initialized
+2026-04-14 00:56:28 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 00:56:28 - __main__ - INFO - GEMINI 2.5 PRO - REAL WEBSITE AUTOMATION (ANY WEBSITE)
+2026-04-14 00:56:28 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 00:56:28 - __main__ - INFO - [CONFIG] API Key: AIzaSyCFFhXkL4z_IkVQBjLsX1Vw4L...
+2026-04-14 00:56:28 - __main__ - INFO - [CONFIG] Browser: chrome
+2026-04-14 00:56:28 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-14 00:56:28 - __main__ - INFO - [CONFIG] Anti-Bot: True
+
+2026-04-14 00:56:36 - __main__ - INFO - [TASK] Amazon Product Search
+
+2026-04-14 00:56:36 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-14 00:56:36 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 00:56:36 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 00:56:36 - GeminiComputerUseFlow - INFO - Gemini 2.5 Pro initialized successfully
+2026-04-14 00:56:36 - AutomationEngine - INFO - AutomationEngine initialized: 20260414_005636_636386
+2026-04-14 00:56:36 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-14 00:56:36 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-14 00:56:36 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-14 00:56:41 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-14 00:56:41 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-14 00:56:41 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-14 00:56:41 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-14 00:56:41 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-14 00:56:43 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-14 00:56:43 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-14 00:56:43 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-14 00:56:43 - AutomationEngine - INFO - [NAVIGATE] https://amazon.com
+2026-04-14 00:56:50 - AutomationEngine - INFO - [LOADED] https://www.amazon.com/
+2026-04-14 00:56:50 - AutomationEngine - INFO - 
+[WEBSITE] Detected: AMAZON
+2026-04-14 00:56:50 - AutomationEngine - INFO - [WEBSITE] Selectors optimized for: amazon
+2026-04-14 00:56:50 - AutomationEngine - INFO - [WORKFLOW] Extraction fields: title, price, rating, reviews_count, variants
+2026-04-14 00:56:50 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-14 00:56:50 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-14 00:56:50 - AutomationEngine - ERROR - [ERROR] GeminiComputerUseFlow.execute_flow_iteration() got an unexpected keyword argument 'website_type'
+2026-04-14 00:56:50 - AutomationEngine - ERROR - Traceback (most recent call last):
+  File "D:\web_automation_enterprise\core\automation_engine.py", line 350, in execute_agentic_task
+    results = self.gemini_flow.execute_flow_iteration(
+        initial_screenshot,
+    ...<4 lines>...
+        workflow=workflow
+    )
+TypeError: GeminiComputerUseFlow.execute_flow_iteration() got an unexpected keyword argument 'website_type'
+
+2026-04-14 00:56:50 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 00:56:50 - __main__ - INFO - EXECUTION RESULTS
+2026-04-14 00:56:50 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 00:56:50 - __main__ - INFO - Status: failed
+2026-04-14 00:56:50 - __main__ - INFO - Task ID: 20260414_005636_636386
+2026-04-14 00:56:50 - __main__ - ERROR - Error: GeminiComputerUseFlow.execute_flow_iteration() got an unexpected keyword argument 'website_type'
+2026-04-14 00:56:50 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 00:56:50 - __main__ - INFO - 
+[INSPECTION] Browser remains open for 30 seconds...
+2026-04-14 00:57:20 - __main__ - INFO - [BROWSER] Closing...
+2026-04-14 00:57:22 - AutomationEngine - INFO - [BROWSER] Closed
+2026-04-14 00:58:03 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 00:58:03 - __main__ - INFO - CURRENT SETTINGS
+2026-04-14 00:58:03 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 00:58:03 - __main__ - INFO - 
+[API]
+2026-04-14 00:58:03 - __main__ - INFO -   Model: gemini-2.5.pro
+2026-04-14 00:58:03 - __main__ - INFO -   API Key: AIzaSyCFFhXkL4z_IkVQBjLsX1Vw4LLdMwl-gJY...
+2026-04-14 00:58:03 - __main__ - INFO - 
+[BROWSER]
+2026-04-14 00:58:03 - __main__ - INFO -   Type: chrome
+2026-04-14 00:58:03 - __main__ - INFO -   Headless: False
+2026-04-14 00:58:03 - __main__ - INFO -   Viewport: 1920x1080
+2026-04-14 00:58:03 - __main__ - INFO - 
+[TIMEOUTS]
+2026-04-14 00:58:03 - __main__ - INFO -   Page Load: 45s
+2026-04-14 00:58:03 - __main__ - INFO -   Element Wait: 15s
+2026-04-14 00:58:03 - __main__ - INFO - 
+[ANTI-BOT]
+2026-04-14 00:58:03 - __main__ - INFO -   Enabled: True
+2026-04-14 00:58:03 - __main__ - INFO -   Stealth: True
+2026-04-14 00:58:03 - __main__ - INFO -   Random Delay: True
+2026-04-14 00:58:03 - __main__ - INFO - 
+[DATABASE]
+2026-04-14 00:58:03 - __main__ - INFO -   URL: sqlite:///automation.db
+2026-04-14 00:58:03 - __main__ - INFO - 
+======================================================================================================================================================
+
+2026-04-14 00:58:14 - __main__ - INFO - [TASK] DemoQA Intelligence Extraction
+
+2026-04-14 00:58:14 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-14 00:58:14 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 00:58:14 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 00:58:14 - GeminiComputerUseFlow - INFO - Gemini 2.5 Pro initialized successfully
+2026-04-14 00:58:14 - AutomationEngine - INFO - AutomationEngine initialized: 20260414_005814_512097
+2026-04-14 00:58:14 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-14 00:58:14 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-14 00:58:14 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-14 00:58:16 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-14 00:58:16 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-14 00:58:16 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-14 00:58:16 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-14 00:58:16 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-14 00:58:18 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-14 00:58:18 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-14 00:58:18 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-14 00:58:18 - AutomationEngine - INFO - [NAVIGATE] https://demoqa.com/
+2026-04-14 00:58:23 - AutomationEngine - INFO - [LOADED] https://demoqa.com/
+2026-04-14 00:58:23 - AutomationEngine - INFO - [WEBSITE] Generic selectors (unknown website)
+2026-04-14 00:58:23 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-14 00:58:23 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-14 00:58:23 - AutomationEngine - ERROR - [ERROR] GeminiComputerUseFlow.execute_flow_iteration() got an unexpected keyword argument 'website_type'
+2026-04-14 00:58:23 - AutomationEngine - ERROR - Traceback (most recent call last):
+  File "D:\web_automation_enterprise\core\automation_engine.py", line 350, in execute_agentic_task
+    results = self.gemini_flow.execute_flow_iteration(
+        initial_screenshot,
+    ...<4 lines>...
+        workflow=workflow
+    )
+TypeError: GeminiComputerUseFlow.execute_flow_iteration() got an unexpected keyword argument 'website_type'
+
+2026-04-14 00:58:23 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 00:58:23 - __main__ - INFO - EXECUTION RESULTS
+2026-04-14 00:58:23 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 00:58:23 - __main__ - INFO - Status: failed
+2026-04-14 00:58:23 - __main__ - INFO - Task ID: 20260414_005814_512097
+2026-04-14 00:58:23 - __main__ - ERROR - Error: GeminiComputerUseFlow.execute_flow_iteration() got an unexpected keyword argument 'website_type'
+2026-04-14 00:58:23 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 00:58:23 - __main__ - INFO - 
+[INSPECTION] Browser remains open for 30 seconds...
+2026-04-14 00:58:53 - __main__ - INFO - [BROWSER] Closing...
+2026-04-14 00:58:55 - AutomationEngine - INFO - [BROWSER] Closed
+2026-04-14 01:00:38 - __main__ - INFO - [EXIT] Goodbye!

@@ -1,0 +1,21 @@
+{
+  "task_id": "20260414_102828_747186",
+  "total_iterations": 50,
+  "total_actions": 43,
+  "unique_pages": [
+    "https://www.flipkart.com/",
+    "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=travel&pageUID=1776142714925"
+  ],
+  "execution_time": 247.497471,
+  "status": "success",
+  "success": true,
+  "gemini_used": true,
+  "fallback_used": false,
+  "engine": "gemini-2.5-pro-enhanced",
+  "screenshot_directory": "screenshots\\20260414_102828_747186",
+  "navigation_url": "https://flipkart.com",
+  "actual_url": "https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=travel&pageUID=1776142714925",
+  "website_type": "flipkart",
+  "workflow_applied": true,
+  "timestamp": "2026-04-14T10:32:50.362675"
+}

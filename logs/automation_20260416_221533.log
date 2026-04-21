@@ -1,0 +1,57 @@
+2026-04-16 22:15:33 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-16 22:15:33 - __main__ - INFO - 🚀 WEB AUTOMATION - GROQ + FALLBACK ANALYSIS (NO GEMINI)
+2026-04-16 22:15:33 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-16 22:15:33 - __main__ - INFO - [CONFIG] Browser: Chrome
+2026-04-16 22:15:33 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-16 22:15:33 - __main__ - INFO - [CONFIG] Anti-Bot: Enabled
+2026-04-16 22:15:33 - __main__ - INFO - [GROQ] Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-16 22:15:33 - __main__ - INFO - [FALLBACK] Rule-Based Analysis: Enabled
+
+2026-04-16 22:15:42 - __main__ - INFO - 
+[TASK] Go to youtube.com, search for AR Rahman songs, click first video, extract title and description, provide summary
+2026-04-16 22:15:42 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-16 22:15:42 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 22:15:42 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-16 22:15:42 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-16 22:15:42 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-16 22:15:43 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-16 22:15:43 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-16 22:15:43 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-16 22:15:43 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-16 22:15:43 - GroqAutomationEngine - INFO - ✅ Groq initialized (mixtral-8x7b-32768)
+2026-04-16 22:15:44 - OpenAIAutomationEngine - INFO - ✅ OpenAI Fallback initialized (gpt-4o)
+2026-04-16 22:15:44 - ComputerUseLoop - INFO - 
+====================================================================================================
+2026-04-16 22:15:44 - ComputerUseLoop - INFO - 🤖 AGENTIC COMPUTER USE LOOP STARTED
+2026-04-16 22:15:44 - ComputerUseLoop - INFO - ====================================================================================================
+2026-04-16 22:15:44 - ComputerUseLoop - INFO - [NAVIGATE] https://youtube.com
+2026-04-16 22:15:49 - ComputerUseLoop - INFO - 
+[ITERATION 1] Stage: navigate
+2026-04-16 22:15:51 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-16 22:15:51 - GroqAutomationEngine - ERROR - Groq API Error: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-04-16 22:15:51 - OpenAIAutomationEngine - INFO - [OPENAI] 🧠 Heavy reasoning invoked...
+2026-04-16 22:15:53 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-16 22:15:53 - openai._base_client - INFO - Retrying request to /chat/completions in 0.416401 seconds
+2026-04-16 22:15:55 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-16 22:15:55 - openai._base_client - INFO - Retrying request to /chat/completions in 0.767438 seconds
+2026-04-16 22:15:57 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-16 22:15:57 - OpenAIAutomationEngine - ERROR - [OPENAI] Analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-16 22:15:57 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 22:15:57 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.
+2026-04-16 22:16:09 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-16 22:16:10 - ComputerUseLoop - INFO - 
+[ITERATION 2] Stage: navigate
+2026-04-16 22:16:12 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2026-04-16 22:16:12 - GroqAutomationEngine - ERROR - Groq API Error: Error code: 400 - {'error': {'message': 'The model `mixtral-8x7b-32768` has been decommissioned and is no longer supported. Please refer to https://console.groq.com/docs/deprecations for a recommendation on which model to use instead.', 'type': 'invalid_request_error', 'code': 'model_decommissioned'}}
+2026-04-16 22:16:12 - OpenAIAutomationEngine - INFO - [OPENAI] 🧠 Heavy reasoning invoked...
+2026-04-16 22:16:13 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-16 22:16:13 - openai._base_client - INFO - Retrying request to /chat/completions in 0.424000 seconds
+2026-04-16 22:16:14 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-16 22:16:14 - openai._base_client - INFO - Retrying request to /chat/completions in 0.760890 seconds
+2026-04-16 22:16:15 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2026-04-16 22:16:15 - OpenAIAutomationEngine - ERROR - [OPENAI] Analysis failed: Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2026-04-16 22:16:15 - ComputerUseLoop - INFO - 👉 [DECISION] scroll -> down
+2026-04-16 22:16:15 - ComputerUseLoop - INFO - 💡 [REASON] Scrolling to trigger new DOM elements.

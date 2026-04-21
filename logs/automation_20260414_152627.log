@@ -1,0 +1,105 @@
+2026-04-14 15:26:27 - __main__ - INFO - Database initialized
+2026-04-14 15:26:27 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 15:26:27 - __main__ - INFO - GEMINI 2.5 PRO - REAL WEBSITE AUTOMATION (ANY WEBSITE)
+2026-04-14 15:26:27 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 15:26:27 - __main__ - INFO - [CONFIG] API Key: AIzaSyCFFhXkL4z_IkVQBjLsX1Vw4L...
+2026-04-14 15:26:27 - __main__ - INFO - [CONFIG] Browser: chrome
+2026-04-14 15:26:27 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-14 15:26:27 - __main__ - INFO - [CONFIG] Anti-Bot: True
+
+2026-04-14 15:26:35 - __main__ - INFO - [TASK] DemoQA Intelligence Extraction
+
+2026-04-14 15:26:35 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-14 15:26:35 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 15:26:35 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 15:26:35 - GeminiComputerUseFlow - INFO - Gemini 2.5 Pro initialized successfully
+2026-04-14 15:26:36 - GeminiComputerUseFlow - INFO - Groq meta-llama/llama-4-scout-17b-16e-instruct initialized successfully
+2026-04-14 15:26:36 - AutomationEngine - INFO - AutomationEngine initialized: 20260414_152635_791178
+2026-04-14 15:26:36 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-14 15:26:36 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-14 15:26:36 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-14 15:26:37 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-14 15:26:37 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-14 15:26:37 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-14 15:26:37 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-14 15:26:37 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-14 15:26:39 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-14 15:26:39 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-14 15:26:39 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-14 15:26:39 - AutomationEngine - INFO - [NAVIGATE] https://demoqa.com/
+2026-04-14 15:26:46 - AutomationEngine - INFO - [LOADED] https://demoqa.com/
+2026-04-14 15:26:46 - AutomationEngine - INFO - [WEBSITE] Generic selectors (unknown website)
+2026-04-14 15:26:46 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-14 15:26:46 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-14 15:26:46 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 15:26:46 - GeminiComputerUseFlow - INFO - GEMINI 2.5 PRO COMPUTER USE - ENHANCED EXECUTION
+2026-04-14 15:26:46 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 15:26:46 - GeminiComputerUseFlow - INFO - 
+[ITERATION 1/50]
+2026-04-14 15:26:46 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_001_20260414_152646_785774.png
+2026-04-14 15:26:47 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:26:48 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 15:26:48 - GeminiComputerUseFlow - INFO - [ANALYSIS] The webpage contains a series of icons representing different modules. The task 
+2026-04-14 15:26:48 - GeminiComputerUseFlow - INFO - [ACTION] click: Elements
+2026-04-14 15:26:54 - GeminiComputerUseFlow - INFO - 
+[ITERATION 2/50]
+2026-04-14 15:26:54 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_002_20260414_152654_664080.png
+2026-04-14 15:26:55 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:26:56 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 15:26:56 - GeminiComputerUseFlow - INFO - [ANALYSIS] The page contains a navigation menu with various modules. The task is to explore
+2026-04-14 15:26:56 - GeminiComputerUseFlow - INFO - [ACTION] click: Elements
+2026-04-14 15:27:02 - GeminiComputerUseFlow - INFO - 
+[ITERATION 3/50]
+2026-04-14 15:27:02 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_003_20260414_152702_816627.png
+2026-04-14 15:27:03 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:27:05 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 15:27:05 - GeminiComputerUseFlow - INFO - [ANALYSIS] The webpage contains a navigation menu with various modules. The task requires e
+2026-04-14 15:27:05 - GeminiComputerUseFlow - INFO - [ACTION] click: Elements
+2026-04-14 15:27:11 - GeminiComputerUseFlow - INFO - 
+[ITERATION 4/50]
+2026-04-14 15:27:11 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_004_20260414_152711_349411.png
+2026-04-14 15:27:11 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:27:13 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 15:27:13 - GeminiComputerUseFlow - INFO - [ANALYSIS] The webpage contains a navigation menu with various modules. The task requires e
+2026-04-14 15:27:13 - GeminiComputerUseFlow - INFO - [ACTION] click: Elements
+2026-04-14 15:27:19 - GeminiComputerUseFlow - INFO - 
+[ITERATION 5/50]
+2026-04-14 15:27:19 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_005_20260414_152719_268706.png
+2026-04-14 15:27:19 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed or unavailable, using Groq Vision analysis
+2026-04-14 15:27:20 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-14 15:27:20 - GeminiComputerUseFlow - INFO - [ANALYSIS] The page contains several module icons, likely representing different sections o
+2026-04-14 15:27:20 - GeminiComputerUseFlow - INFO - [ACTION] click: Elements
+2026-04-14 15:27:22 - GeminiComputerUseFlow - INFO - [INTERRUPT] User interrupted
+2026-04-14 15:27:22 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 15:27:22 - GeminiComputerUseFlow - INFO - EXECUTION COMPLETE: 5 iterations, 0 actions, 35.9s
+2026-04-14 15:27:22 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 15:27:26 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50064): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/6986926594d98d91e5a108a8fcdea4af/url
+2026-04-14 15:27:30 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50064): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/6986926594d98d91e5a108a8fcdea4af/url
+2026-04-14 15:27:34 - AutomationEngine - INFO - [INTERRUPT] User interrupted
+2026-04-14 15:27:34 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 15:27:34 - __main__ - INFO - EXECUTION RESULTS
+2026-04-14 15:27:34 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 15:27:34 - __main__ - INFO - Status: interrupted
+2026-04-14 15:27:34 - __main__ - INFO - Task ID: 20260414_152635_791178
+2026-04-14 15:27:34 - __main__ - ERROR - Error: Interrupted by user
+2026-04-14 15:27:34 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 15:27:34 - __main__ - INFO - 
+[INSPECTION] Browser remains open for 30 seconds...
+2026-04-14 15:27:35 - __main__ - INFO - [BROWSER] Closing...
+2026-04-14 15:27:39 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50064): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/6986926594d98d91e5a108a8fcdea4af
+2026-04-14 15:27:43 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50064): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/6986926594d98d91e5a108a8fcdea4af
+2026-04-14 15:27:47 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=50064): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/6986926594d98d91e5a108a8fcdea4af
+2026-04-14 15:27:51 - AutomationEngine - INFO - [BROWSER] Closed
+2026-04-14 15:27:51 - __main__ - INFO - [INTERRUPT] Keyboard interrupt detected

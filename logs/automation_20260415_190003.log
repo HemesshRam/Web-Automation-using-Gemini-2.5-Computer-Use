@@ -1,0 +1,263 @@
+2026-04-15 19:00:03 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-15 19:00:03 - __main__ - INFO - 🚀 WEB AUTOMATION - GROQ + FALLBACK ANALYSIS (NO GEMINI)
+2026-04-15 19:00:03 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-15 19:00:03 - __main__ - INFO - [CONFIG] Browser: Chrome
+2026-04-15 19:00:03 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-15 19:00:03 - __main__ - INFO - [CONFIG] Anti-Bot: Enabled
+2026-04-15 19:00:03 - __main__ - INFO - [GROQ] Model: meta-llama/llama-4-scout-17b-16e-instruct
+2026-04-15 19:00:03 - __main__ - INFO - [FALLBACK] Rule-Based Analysis: Enabled
+
+2026-04-15 19:00:14 - __main__ - INFO - 
+[TASK] Go to youtube.com, search for AR Rahman songs, click first video, extract title and description, provide summary
+2026-04-15 19:00:14 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-15 19:00:14 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-15 19:00:14 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-15 19:00:14 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-15 19:00:14 - selenium_driver.driver_factory - INFO - Using Chrome executable: C:\Program Files\Google\Chrome\Application\chrome.exe
+2026-04-15 19:00:16 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-15 19:00:16 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-15 19:00:16 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-15 19:00:16 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-15 19:00:17 - GroqAutomationEngine - INFO - ✅ Groq initialized (meta-llama/llama-4-scout)
+2026-04-15 19:00:17 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-15 19:00:17 - ComputerUseLoop - INFO - COMPUTER USE LOOP - GROQ + FALLBACK ANALYSIS
+2026-04-15 19:00:17 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-15 19:00:17 - ComputerUseLoop - INFO - [NAVIGATE] https://youtube.com
+2026-04-15 19:00:24 - ComputerUseLoop - INFO - [WORKFLOW] Type: youtube_search
+2026-04-15 19:00:24 - ComputerUseLoop - INFO - [STAGES] navigate → search → navigate_result → extract → verify
+
+2026-04-15 19:00:24 - ComputerUseLoop - INFO - [ITERATION 1] Stage: navigate
+2026-04-15 19:00:25 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:25 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:25 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:25 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:25 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:25 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:26 - ComputerUseLoop - INFO - [ITERATION 2] Stage: navigate
+2026-04-15 19:00:26 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:26 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:26 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:26 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:26 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:26 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:27 - ComputerUseLoop - INFO - [ITERATION 3] Stage: navigate
+2026-04-15 19:00:28 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:28 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:28 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:28 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:28 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:28 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:30 - ComputerUseLoop - INFO - [ITERATION 4] Stage: navigate
+2026-04-15 19:00:30 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:30 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:30 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:30 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:30 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:30 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:31 - ComputerUseLoop - INFO - [ITERATION 5] Stage: navigate
+2026-04-15 19:00:32 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:32 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:32 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:32 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:32 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:32 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:33 - ComputerUseLoop - INFO - [ITERATION 6] Stage: navigate
+2026-04-15 19:00:33 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:33 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:33 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:33 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:33 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:33 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:35 - ComputerUseLoop - INFO - [ITERATION 7] Stage: navigate
+2026-04-15 19:00:37 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:37 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:37 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:37 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:37 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:37 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:38 - ComputerUseLoop - INFO - [ITERATION 8] Stage: navigate
+2026-04-15 19:00:38 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:38 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:38 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:38 - ComputerUseLoop - INFO - [DECISION] search: search box
+2026-04-15 19:00:38 - ComputerUseLoop - INFO - [ACTION] search: search box
+2026-04-15 19:00:38 - ComputerUseLoop - WARNING - Unknown action: search
+2026-04-15 19:00:39 - ComputerUseLoop - INFO - [ITERATION 9] Stage: navigate
+2026-04-15 19:00:40 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:40 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:40 - ComputerUseLoop - INFO - [ANALYSIS] Current page is YouTube homepage...
+2026-04-15 19:00:40 - ComputerUseLoop - INFO - [DECISION] navigate: https://www.youtube.com/results?search_q
+2026-04-15 19:00:40 - ComputerUseLoop - INFO - [ACTION] navigate: https://www.youtube.com/results?search_query=AR+ Rahman
+2026-04-15 19:00:46 - project.action_executor_enhanced - INFO - ✓ Navigated to: https://www.youtube.com/results?search_query=AR+ Rahman
+2026-04-15 19:00:48 - ComputerUseLoop - INFO - [ITERATION 10] Stage: navigate
+2026-04-15 19:00:49 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:00:49 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:00:49 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be the YouTube search results page for 'AR Rahman'....
+2026-04-15 19:00:49 - ComputerUseLoop - INFO - [DECISION] click: #video-title > a
+2026-04-15 19:00:49 - ComputerUseLoop - INFO - [ACTION] click: #video-title > a
+2026-04-15 19:01:05 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title > a
+2026-04-15 19:01:06 - ComputerUseLoop - INFO - [ITERATION 11] Stage: navigate
+2026-04-15 19:01:07 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:01:07 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:01:07 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be the YouTube search results page for 'AR Rahman' s...
+2026-04-15 19:01:07 - ComputerUseLoop - INFO - [DECISION] click: #video-title > a
+2026-04-15 19:01:07 - ComputerUseLoop - INFO - [ACTION] click: #video-title > a
+2026-04-15 19:01:24 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title > a
+2026-04-15 19:01:25 - ComputerUseLoop - INFO - [ITERATION 12] Stage: navigate
+2026-04-15 19:01:25 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:01:25 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:01:25 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be the YouTube search results page for 'AR Rahman' s...
+2026-04-15 19:01:25 - ComputerUseLoop - INFO - [DECISION] click: #video-title > a
+2026-04-15 19:01:25 - ComputerUseLoop - INFO - [ACTION] click: #video-title > a
+2026-04-15 19:01:42 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title > a
+2026-04-15 19:01:44 - ComputerUseLoop - INFO - [ITERATION 13] Stage: navigate
+2026-04-15 19:01:44 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:01:44 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:01:44 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be the YouTube search results page for 'AR Rahman'....
+2026-04-15 19:01:44 - ComputerUseLoop - INFO - [DECISION] click: #video-title > a
+2026-04-15 19:01:44 - ComputerUseLoop - INFO - [ACTION] click: #video-title > a
+2026-04-15 19:02:00 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title > a
+2026-04-15 19:02:01 - ComputerUseLoop - INFO - [ITERATION 14] Stage: navigate
+2026-04-15 19:02:03 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:02:03 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:02:03 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be a YouTube search results page for 'AR Rahman' son...
+2026-04-15 19:02:03 - ComputerUseLoop - INFO - [DECISION] click: #video-title > a
+2026-04-15 19:02:03 - ComputerUseLoop - INFO - [ACTION] click: #video-title > a
+2026-04-15 19:02:19 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title > a
+2026-04-15 19:02:20 - ComputerUseLoop - INFO - [ITERATION 15] Stage: navigate
+2026-04-15 19:02:21 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:02:21 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:02:21 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be a YouTube search results page for 'AR Rahman' son...
+2026-04-15 19:02:21 - ComputerUseLoop - INFO - [DECISION] click: #video-title[aria-label='AR Rahman - Gre
+2026-04-15 19:02:21 - ComputerUseLoop - INFO - [ACTION] click: #video-title[aria-label='AR Rahman - Greatest Hits -  Greatest Hits Medley']
+2026-04-15 19:02:37 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title[aria-label='AR Rahman - Greatest Hits -  Greatest Hits Medley']
+2026-04-15 19:02:39 - ComputerUseLoop - INFO - [ITERATION 16] Stage: navigate
+2026-04-15 19:02:42 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:02:42 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:02:42 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be the YouTube search results page for 'AR Rahman'....
+2026-04-15 19:02:42 - ComputerUseLoop - INFO - [DECISION] click: #video-title > a
+2026-04-15 19:02:42 - ComputerUseLoop - INFO - [ACTION] click: #video-title > a
+2026-04-15 19:02:58 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title > a
+2026-04-15 19:02:59 - ComputerUseLoop - INFO - [ITERATION 17] Stage: navigate
+2026-04-15 19:03:03 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-04-15 19:03:03 - ComputerUseLoop - INFO - [ANALYSIS] Using Groq
+2026-04-15 19:03:03 - ComputerUseLoop - INFO - [ANALYSIS] The current page appears to be a YouTube search results page for 'AR Rahman' son...
+2026-04-15 19:03:03 - ComputerUseLoop - INFO - [DECISION] click: #video-title > a
+2026-04-15 19:03:03 - ComputerUseLoop - INFO - [ACTION] click: #video-title > a
+2026-04-15 19:03:19 - project.action_executor_enhanced - WARNING - ✗ Element not clickable: #video-title > a
+2026-04-15 19:03:20 - ComputerUseLoop - INFO - [ITERATION 18] Stage: navigate
+2026-04-15 19:03:30 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.469956 seconds
+2026-04-15 19:03:41 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.774707 seconds
+2026-04-15 19:03:52 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:03:52 - ComputerUseLoop - INFO - [ANALYSIS] On YouTube homepage...
+2026-04-15 19:03:52 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 19:03:52 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 19:04:00 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 19:04:00 - ComputerUseLoop - INFO - [STAGE_COMPLETE] Moving to next stage
+2026-04-15 19:04:02 - ComputerUseLoop - INFO - [ITERATION 19] Stage: search
+2026-04-15 19:04:03 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.449204 seconds
+2026-04-15 19:04:03 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.832875 seconds
+2026-04-15 19:04:04 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:04:04 - ComputerUseLoop - INFO - [ANALYSIS] Found YouTube search box...
+2026-04-15 19:04:04 - ComputerUseLoop - INFO - [DECISION] fill: input[name="search_query"], input#search
+2026-04-15 19:04:04 - ComputerUseLoop - INFO - [ACTION] fill: input[name="search_query"], input#search
+2026-04-15 19:04:06 - project.action_executor_enhanced - INFO - ✓ Filled input: input[name="search_query"], input#search
+2026-04-15 19:04:06 - ComputerUseLoop - INFO - [STAGE_COMPLETE] Moving to next stage
+2026-04-15 19:04:07 - ComputerUseLoop - INFO - [ITERATION 20] Stage: navigate_result
+2026-04-15 19:04:07 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.410507 seconds
+2026-04-15 19:04:07 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.889145 seconds
+2026-04-15 19:04:08 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:04:08 - ComputerUseLoop - INFO - [ANALYSIS] Fallback action...
+2026-04-15 19:04:08 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 19:04:08 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 19:04:16 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 19:04:17 - ComputerUseLoop - INFO - [ITERATION 21] Stage: navigate_result
+2026-04-15 19:04:17 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.498846 seconds
+2026-04-15 19:04:18 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.860584 seconds
+2026-04-15 19:04:18 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:04:18 - ComputerUseLoop - INFO - [ANALYSIS] Fallback action...
+2026-04-15 19:04:18 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 19:04:18 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 19:04:26 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 19:04:28 - ComputerUseLoop - INFO - [ITERATION 22] Stage: navigate_result
+2026-04-15 19:04:28 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.463133 seconds
+2026-04-15 19:04:29 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.773590 seconds
+2026-04-15 19:04:30 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:04:30 - ComputerUseLoop - INFO - [ANALYSIS] Fallback action...
+2026-04-15 19:04:30 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 19:04:30 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 19:04:40 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 19:04:41 - ComputerUseLoop - INFO - [ITERATION 23] Stage: navigate_result
+2026-04-15 19:04:42 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.407727 seconds
+2026-04-15 19:04:42 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.951353 seconds
+2026-04-15 19:04:43 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:04:43 - ComputerUseLoop - INFO - [ANALYSIS] Fallback action...
+2026-04-15 19:04:43 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 19:04:43 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 19:04:51 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 19:04:52 - ComputerUseLoop - INFO - [ITERATION 24] Stage: navigate_result
+2026-04-15 19:04:53 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.422778 seconds
+2026-04-15 19:04:53 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.866715 seconds
+2026-04-15 19:04:54 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:04:54 - ComputerUseLoop - INFO - [ANALYSIS] Fallback action...
+2026-04-15 19:04:54 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 19:04:54 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 19:05:01 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 19:05:03 - ComputerUseLoop - INFO - [ITERATION 25] Stage: navigate_result
+2026-04-15 19:05:03 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.380390 seconds
+2026-04-15 19:05:04 - groq._base_client - INFO - Retrying request to /openai/v1/chat/completions in 0.898017 seconds
+2026-04-15 19:05:04 - ComputerUseLoop - INFO - [ANALYSIS] Using Fallback (Rule-Based)
+2026-04-15 19:05:05 - ComputerUseLoop - INFO - [ANALYSIS] Fallback action...
+2026-04-15 19:05:05 - ComputerUseLoop - INFO - [DECISION] scroll: down
+2026-04-15 19:05:05 - ComputerUseLoop - INFO - [ACTION] scroll: down
+2026-04-15 19:05:17 - project.action_executor_enhanced - INFO - ✓ Scrolled down (3x)
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - 
+======================================================================================================================================================
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - AUTOMATION RESULTS
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - ======================================================================================================================================================
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Task: Go to youtube.com, search for AR Rahman songs, click first video, extract title ...
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Workflow: youtube_search
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Total Iterations: 25
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Total Actions: 9
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Pages Visited: 3
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Execution Time: 301.5s
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Groq Used: True
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - Fallback Used: False
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - 
+[WORKFLOW HISTORY]
+2026-04-15 19:05:18 - ComputerUseLoop - INFO -   Iter 21: navigate_result → scroll (True)
+2026-04-15 19:05:18 - ComputerUseLoop - INFO -   Iter 22: navigate_result → scroll (True)
+2026-04-15 19:05:18 - ComputerUseLoop - INFO -   Iter 23: navigate_result → scroll (True)
+2026-04-15 19:05:18 - ComputerUseLoop - INFO -   Iter 24: navigate_result → scroll (True)
+2026-04-15 19:05:18 - ComputerUseLoop - INFO -   Iter 25: navigate_result → scroll (True)
+2026-04-15 19:05:18 - ComputerUseLoop - INFO - ======================================================================================================================================================
+
+2026-04-15 19:05:18 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-15 19:05:18 - __main__ - INFO - 📊 EXECUTION SUMMARY
+2026-04-15 19:05:18 - __main__ - INFO - ======================================================================================================================================================
+2026-04-15 19:05:18 - __main__ - INFO - 
+Workflow Type: youtube_search
+2026-04-15 19:05:18 - __main__ - INFO - Total Iterations: 25
+2026-04-15 19:05:18 - __main__ - INFO - Actions Executed: 9
+2026-04-15 19:05:18 - __main__ - INFO - Pages Visited: 3
+2026-04-15 19:05:18 - __main__ - INFO - Execution Time: 301.5s
+2026-04-15 19:05:18 - __main__ - INFO - 
+[ENGINES]
+2026-04-15 19:05:18 - __main__ - INFO -   Groq Used: ✓
+2026-04-15 19:05:18 - __main__ - INFO -   Fallback Used: ✗
+2026-04-15 19:05:18 - __main__ - INFO - 
+[PAGES VISITED]
+2026-04-15 19:05:18 - __main__ - INFO -   1. https://www.youtube.com/results?search_query=AR++Rahman...
+2026-04-15 19:05:18 - __main__ - INFO -   2. https://www.youtube.com/...
+2026-04-15 19:05:18 - __main__ - INFO -   3. https://www.youtube.com/results?search_query=item...
+2026-04-15 19:05:18 - __main__ - INFO - 
+======================================================================================================================================================
+
+2026-04-15 19:05:18 - __main__ - INFO - [BROWSER] Closing...
+2026-04-15 19:39:35 - __main__ - INFO - [EXIT] Goodbye! 👋

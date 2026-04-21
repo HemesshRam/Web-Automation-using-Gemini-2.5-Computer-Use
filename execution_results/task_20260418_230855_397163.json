@@ -1,0 +1,22 @@
+{
+  "task_id": "20260418_230855_397163",
+  "total_iterations": 7,
+  "total_actions": 6,
+  "unique_pages": [
+    "https://finance.yahoo.com/quote/TSLL/",
+    "https://finance.yahoo.com/quote/TSLA/",
+    "https://finance.yahoo.com/"
+  ],
+  "status": "success",
+  "success": true,
+  "execution_time": 95.69268,
+  "gemini_used": true,
+  "fallback_used": false,
+  "engine": "gemini-2.5-pro-enhanced",
+  "screenshot_directory": "screenshots\\20260418_230855_397163",
+  "navigation_url": "https://finance.yahoo.com",
+  "actual_url": "https://finance.yahoo.com/quote/TSLA/",
+  "website_type": "yahoo_finance",
+  "workflow_applied": true,
+  "timestamp": "2026-04-18T23:11:10.074035"
+}

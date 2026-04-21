@@ -1,0 +1,174 @@
+2026-04-03 12:51:27 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:51:27 - __main__ - INFO - ENTERPRISE AGENTIC AI WEB AUTOMATION FRAMEWORK
+2026-04-03 12:51:27 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:51:27 - __main__ - INFO - Headless Mode: False
+2026-04-03 12:51:27 - __main__ - INFO - Anti-Bot Stealth: True
+2026-04-03 12:51:27 - __main__ - INFO - User-Agent Rotation: True
+2026-04-03 12:51:27 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:51:49 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:51:49 - __main__ - INFO - EXECUTING: Explore Elements Module
+2026-04-03 12:51:49 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:51:49 - __main__ - INFO - Prompt: Navigate to the Elements module at https://demoqa.com/elements and explore all sub-sections (Text Box, Button, Links, Broken Links, Upload Download, Dynamic Properties). For each section, take a screenshot and document available elements.
+2026-04-03 12:51:49 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:51:49 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-03 12:51:49 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-03 12:51:49 - core.automation_engine - INFO - AutomationEngine initialized with task_id: 20260403_125149_095649
+2026-04-03 12:51:49 - __main__ - INFO - Initializing browser...
+2026-04-03 12:51:49 - core.automation_engine - INFO - Initializing chrome driver...
+2026-04-03 12:51:49 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-03 12:51:49 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-03 12:52:28 - selenium.webdriver.common.selenium_manager - WARNING - Error sending stats to Plausible: error sending request for url (https://plausible.io/api/event)
+2026-04-03 12:52:30 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-03 12:52:30 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-03 12:52:30 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-03 12:52:30 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-03 12:52:30 - core.automation_engine - INFO - Driver initialized successfully
+2026-04-03 12:52:30 - __main__ - INFO - Browser initialized successfully
+2026-04-03 12:52:31 - __main__ - INFO - 
+====================================================================================================
+2026-04-03 12:52:31 - __main__ - INFO - STARTING AGENTIC AI AUTOMATION
+2026-04-03 12:52:31 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:52:31 - core.automation_engine - INFO - Starting agentic task execution: Navigate to the Elements module at https://demoqa.com/elements and explore all sub-sections (Text Bo...
+2026-04-03 12:52:31 - core.automation_engine - INFO - Step 1: Analyzing task...
+2026-04-03 12:52:31 - TaskAnalyzer - INFO - Analyzing task: Navigate to the Elements module at https://demoqa.com/elements and explore all sub-sections (Text Bo...
+2026-04-03 12:52:31 - TaskAnalyzer - INFO - Execution plan created with 3 sub-tasks
+2026-04-03 12:52:31 - core.automation_engine - INFO - Execution plan created: 3 steps
+2026-04-03 12:52:31 - core.automation_engine - INFO - Step 2: Navigating to https://demoqa.com/...
+2026-04-03 12:52:31 - core.automation_engine - INFO - Navigating to: https://demoqa.com/
+2026-04-03 12:52:31 - detectors.anti_bot_service - INFO - Anti-detection scripts injected successfully
+2026-04-03 12:53:06 - core.automation_engine - INFO - Waiting 2.65s for page load...
+2026-04-03 12:53:08 - core.automation_engine - INFO - Navigation completed successfully
+2026-04-03 12:53:10 - core.automation_engine - INFO - Step 3: Analyzing initial page state...
+2026-04-03 12:53:21 - PageAnalyzer - INFO - Extracted 8 interactive elements
+2026-04-03 12:53:26 - PageAnalyzer - INFO - Extracted 0 forms
+2026-04-03 12:53:51 - PageAnalyzer - INFO - Page analysis complete: https://demoqa.com/
+2026-04-03 12:53:51 - core.automation_engine - INFO - Page analysis: https://demoqa.com/
+2026-04-03 12:53:51 - core.automation_engine - INFO - Step 4: Executing orchestrated plan...
+2026-04-03 12:53:51 - ActionOrchestrator - INFO - Executing task: Capture initial page state
+2026-04-03 12:53:51 - ActionOrchestrator - INFO - Screenshot saved: screenshots\screenshot_20260403_125351.png
+2026-04-03 12:53:51 - ActionOrchestrator - INFO - Executing task: Explore all navigable elements
+2026-04-03 12:53:51 - ActionOrchestrator - INFO - Found navigation:  -> https://demoqa.com/
+2026-04-03 12:53:56 - ActionOrchestrator - INFO - Found navigation:  -> https://www.toolsqa.com/selenium-training/
+2026-04-03 12:53:59 - ActionOrchestrator - INFO - Screenshot saved: screenshots\screenshot_20260403_125359.png
+2026-04-03 12:54:00 - ActionOrchestrator - WARNING - Navigation exploration error: Message: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7580688d5
+	0x7ff758068930
+	0x7ff757e4165d
+	0x7ff757e57ed3
+	0x7ff757e569d3
+	0x7ff757e4a006
+	0x7ff757e4a166
+	0x7ff757e47f4c
+	0x7ff757e4c74e
+	0x7ff757eec05f
+	0x7ff757ec1fda
+	0x7ff757eeac97
+	0x7ff757e8ac29
+	0x7ff757e8ba93
+	0x7ff758380620
+	0x7ff75837af60
+	0x7ff7583996c6
+	0x7ff758085dd4
+	0x7ff75808ed7c
+	0x7ff758071ff4
+	0x7ff7580721a5
+	0x7ff758057ed2
+	0x7ffc0800e8d7
+	0x7ffc08a0c48c
+
+2026-04-03 12:54:00 - ActionOrchestrator - WARNING - Navigation exploration error: Message: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7580688d5
+	0x7ff758068930
+	0x7ff757e4165d
+	0x7ff757e57ed3
+	0x7ff757e569d3
+	0x7ff757e4a006
+	0x7ff757e4a166
+	0x7ff757e47f4c
+	0x7ff757e4c74e
+	0x7ff757eec05f
+	0x7ff757ec1fda
+	0x7ff757eeac97
+	0x7ff757e8ac29
+	0x7ff757e8ba93
+	0x7ff758380620
+	0x7ff75837af60
+	0x7ff7583996c6
+	0x7ff758085dd4
+	0x7ff75808ed7c
+	0x7ff758071ff4
+	0x7ff7580721a5
+	0x7ff758057ed2
+	0x7ffc0800e8d7
+	0x7ffc08a0c48c
+
+2026-04-03 12:54:00 - ActionOrchestrator - WARNING - Navigation exploration error: Message: stale element reference: stale element not found
+  (Session info: chrome=143.0.7499.169); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+Symbols not available. Dumping unresolved backtrace:
+	0x7ff7580688d5
+	0x7ff758068930
+	0x7ff757e4165d
+	0x7ff757e57ed3
+	0x7ff757e569d3
+	0x7ff757e4a006
+	0x7ff757e4a166
+	0x7ff757e47f4c
+	0x7ff757e4c74e
+	0x7ff757eec05f
+	0x7ff757ec1fda
+	0x7ff757eeac97
+	0x7ff757e8ac29
+	0x7ff757e8ba93
+	0x7ff758380620
+	0x7ff75837af60
+	0x7ff7583996c6
+	0x7ff758085dd4
+	0x7ff75808ed7c
+	0x7ff758071ff4
+	0x7ff7580721a5
+	0x7ff758057ed2
+	0x7ffc0800e8d7
+	0x7ffc08a0c48c
+
+2026-04-03 12:54:00 - ActionOrchestrator - INFO - Executing task: Capture final state
+2026-04-03 12:54:00 - ActionOrchestrator - INFO - Screenshot saved: screenshots\screenshot_20260403_125400.png
+2026-04-03 12:54:00 - core.automation_engine - INFO - Task execution completed
+2026-04-03 12:54:00 - __main__ - INFO - 
+====================================================================================================
+2026-04-03 12:54:00 - __main__ - INFO - EXECUTION RESULTS
+2026-04-03 12:54:00 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:54:00 - __main__ - INFO - Task ID: 20260403_125231_519519
+2026-04-03 12:54:00 - __main__ - INFO - Status: completed
+2026-04-03 12:54:00 - __main__ - INFO - Executed Actions: 3
+2026-04-03 12:54:00 - __main__ - INFO - Errors: 0
+2026-04-03 12:54:00 - __main__ - INFO - Execution Time: 8.76s
+2026-04-03 12:54:00 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:54:00 - __main__ - INFO - Results saved to: execution_results\20260403_125231_519519.json
+2026-04-03 12:54:00 - __main__ - INFO - 
+Browser will remain open for inspection (15 seconds)...
+2026-04-03 12:54:15 - __main__ - INFO - Closing browser...
+2026-04-03 12:54:18 - core.automation_engine - INFO - Driver closed successfully
+2026-04-03 12:54:18 - __main__ - INFO - Browser closed
+2026-04-03 12:54:25 - __main__ - INFO - 
+====================================================================================================
+2026-04-03 12:54:25 - __main__ - INFO - CURRENT SETTINGS
+2026-04-03 12:54:25 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:54:25 - __main__ - INFO - Browser Type: chrome
+2026-04-03 12:54:25 - __main__ - INFO - Headless: False
+2026-04-03 12:54:25 - __main__ - INFO - Anti-Bot Stealth: True
+2026-04-03 12:54:25 - __main__ - INFO - User-Agent Rotation: True
+2026-04-03 12:54:25 - __main__ - INFO - Random Delays: True
+2026-04-03 12:54:25 - __main__ - INFO - Delay Range: 1.5s - 4.5s
+2026-04-03 12:54:25 - __main__ - INFO - Page Load Timeout: 45s
+2026-04-03 12:54:25 - __main__ - INFO - Element Wait Timeout: 15s
+2026-04-03 12:54:25 - __main__ - INFO - Target URL: https://demoqa.com/
+2026-04-03 12:54:25 - __main__ - INFO - Chrome Path: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-03 12:54:25 - __main__ - INFO - ====================================================================================================
+2026-04-03 12:54:33 - __main__ - INFO - Exiting application...

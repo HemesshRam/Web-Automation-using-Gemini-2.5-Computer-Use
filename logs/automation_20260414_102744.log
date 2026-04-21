@@ -1,0 +1,846 @@
+2026-04-14 10:27:44 - __main__ - INFO - Database initialized
+2026-04-14 10:27:44 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 10:27:44 - __main__ - INFO - GEMINI 2.5 PRO - REAL WEBSITE AUTOMATION (ANY WEBSITE)
+2026-04-14 10:27:44 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 10:27:44 - __main__ - INFO - [CONFIG] API Key: AIzaSyCFFhXkL4z_IkVQBjLsX1Vw4L...
+2026-04-14 10:27:44 - __main__ - INFO - [CONFIG] Browser: chrome
+2026-04-14 10:27:44 - __main__ - INFO - [CONFIG] Headless: False
+2026-04-14 10:27:44 - __main__ - INFO - [CONFIG] Anti-Bot: True
+
+2026-04-14 10:27:48 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 10:27:48 - __main__ - INFO - SUPPORTED WEBSITES & WORKFLOWS
+2026-04-14 10:27:48 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 10:27:48 - __main__ - INFO -   amazon.com                - Product search, pricing, reviews, variants, add to cart
+2026-04-14 10:27:48 - __main__ - INFO -   youtube.com               - Video search, channel exploration, playlist browsing, view metrics
+2026-04-14 10:27:48 - __main__ - INFO -   makemytrip.com            - Flight search, hotel booking, travel packages, price comparison
+2026-04-14 10:27:48 - __main__ - INFO -   finance.yahoo.com         - Stock quotes, market data, price trends, company metrics
+2026-04-14 10:27:48 - __main__ - INFO -   github.com                - Repository search, code exploration, trending projects, user profiles
+2026-04-14 10:27:48 - __main__ - INFO -   booking.com               - Hotel search, flight booking, property details, reviews
+2026-04-14 10:27:48 - __main__ - INFO -   flipkart.com              - Product search, Indian e-commerce, price comparison, deals
+2026-04-14 10:27:48 - __main__ - INFO -   alibaba.com               - Bulk product search, wholesale pricing, supplier details
+2026-04-14 10:27:48 - __main__ - INFO -   google.com                - General search, information retrieval, link extraction
+2026-04-14 10:27:48 - __main__ - INFO -   wikipedia.org             - Information lookup, article navigation, content extraction
+2026-04-14 10:27:48 - __main__ - INFO -   demoqa.com                - Test automation learning platform with various UI elements
+2026-04-14 10:27:48 - __main__ - INFO -   Any other website         - Custom URL automation with generic selectors
+2026-04-14 10:27:48 - __main__ - INFO - 
+======================================================================================================================================================
+
+2026-04-14 10:28:28 - __main__ - INFO - [TASK] Search for laptops on flipkart.com and show prices
+
+2026-04-14 10:28:28 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-14 10:28:28 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 10:28:28 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 10:28:28 - GeminiComputerUseFlow - INFO - Gemini 2.5 Pro initialized successfully
+2026-04-14 10:28:28 - AutomationEngine - INFO - AutomationEngine initialized: 20260414_102828_747186
+2026-04-14 10:28:28 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-14 10:28:28 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-14 10:28:28 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-14 10:28:33 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-14 10:28:33 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-14 10:28:33 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-14 10:28:33 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-14 10:28:33 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-14 10:28:35 - __main__ - INFO - [EXECUTION] Starting Gemini 2.5 Pro with intelligent fallback...
+
+2026-04-14 10:28:35 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-14 10:28:35 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-14 10:28:35 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-14 10:28:35 - AutomationEngine - INFO - [URL] Domain: https://flipkart.com
+2026-04-14 10:28:35 - AutomationEngine - INFO - [NAVIGATE] https://flipkart.com
+2026-04-14 10:28:42 - AutomationEngine - INFO - [LOADED] https://www.flipkart.com/
+2026-04-14 10:28:42 - AutomationEngine - INFO - 
+[WEBSITE] Detected: FLIPKART
+2026-04-14 10:28:42 - AutomationEngine - INFO - [WEBSITE] Selectors optimized for: flipkart
+2026-04-14 10:28:42 - AutomationEngine - INFO - [WORKFLOW] Extraction fields: title, price, rating, reviews, seller, discount
+2026-04-14 10:28:42 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-14 10:28:42 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-14 10:28:42 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 10:28:42 - GeminiComputerUseFlow - INFO - GEMINI 2.5 PRO COMPUTER USE - ENHANCED EXECUTION
+2026-04-14 10:28:42 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 10:28:42 - GeminiComputerUseFlow - INFO - 
+[ITERATION 1/50]
+2026-04-14 10:28:42 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_001_20260414_102842_858690.png
+2026-04-14 10:28:43 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:28:46 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:28:46 - GeminiComputerUseFlow - INFO - [ACTION] fill: input[placeholder*='Search'] = laptops flipkart.com and show prices
+2026-04-14 10:28:48 - GeminiComputerUseFlow - INFO - 
+[ITERATION 2/50]
+2026-04-14 10:28:48 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_002_20260414_102848_738592.png
+2026-04-14 10:28:49 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:28:51 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:28:51 - GeminiComputerUseFlow - INFO - [ACTION] fill: input[placeholder*='Search'] = laptops flipkart.com and show prices
+2026-04-14 10:28:54 - GeminiComputerUseFlow - INFO - 
+[ITERATION 3/50]
+2026-04-14 10:28:54 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_003_20260414_102854_051743.png
+2026-04-14 10:28:54 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:28:57 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:28:57 - GeminiComputerUseFlow - INFO - [ACTION] click: button: search
+2026-04-14 10:28:59 - GeminiComputerUseFlow - INFO - 
+[ITERATION 4/50]
+2026-04-14 10:28:59 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_004_20260414_102859_467363.png
+2026-04-14 10:28:59 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:29:02 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:29:02 - GeminiComputerUseFlow - INFO - [ACTION] click: button: search
+2026-04-14 10:29:04 - GeminiComputerUseFlow - INFO - [CLICK] button: search
+2026-04-14 10:29:05 - GeminiComputerUseFlow - INFO - 
+[ITERATION 5/50]
+2026-04-14 10:29:05 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_005_20260414_102905_445769.png
+2026-04-14 10:29:05 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:29:36 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:29:36 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:29:43 - GeminiComputerUseFlow - INFO - 
+[ITERATION 6/50]
+2026-04-14 10:29:43 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_006_20260414_102943_210789.png
+2026-04-14 10:29:44 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:30:15 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:30:15 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:30:21 - GeminiComputerUseFlow - INFO - 
+[ITERATION 7/50]
+2026-04-14 10:30:21 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_007_20260414_103021_414867.png
+2026-04-14 10:30:22 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:30:53 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:30:53 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:30:59 - GeminiComputerUseFlow - INFO - 
+[ITERATION 8/50]
+2026-04-14 10:30:59 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_008_20260414_103059_681352.png
+2026-04-14 10:31:00 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:31 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:31 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:31:38 - GeminiComputerUseFlow - INFO - 
+[ITERATION 9/50]
+2026-04-14 10:31:38 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_009_20260414_103138_017558.png
+2026-04-14 10:31:39 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:39 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:39 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:39 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:40 - GeminiComputerUseFlow - INFO - 
+[ITERATION 10/50]
+2026-04-14 10:31:40 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_010_20260414_103140_330381.png
+2026-04-14 10:31:41 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:41 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:41 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:41 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:42 - GeminiComputerUseFlow - INFO - 
+[ITERATION 11/50]
+2026-04-14 10:31:42 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_011_20260414_103142_520644.png
+2026-04-14 10:31:43 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:43 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:43 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:43 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:44 - GeminiComputerUseFlow - INFO - 
+[ITERATION 12/50]
+2026-04-14 10:31:44 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_012_20260414_103144_569531.png
+2026-04-14 10:31:45 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:45 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:45 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:45 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:46 - GeminiComputerUseFlow - INFO - 
+[ITERATION 13/50]
+2026-04-14 10:31:46 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_013_20260414_103146_188356.png
+2026-04-14 10:31:46 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:46 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:46 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:46 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:47 - GeminiComputerUseFlow - INFO - 
+[ITERATION 14/50]
+2026-04-14 10:31:47 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_014_20260414_103147_834531.png
+2026-04-14 10:31:48 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:48 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:48 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:48 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:49 - GeminiComputerUseFlow - INFO - 
+[ITERATION 15/50]
+2026-04-14 10:31:49 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_015_20260414_103149_382256.png
+2026-04-14 10:31:49 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:50 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:50 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:50 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:51 - GeminiComputerUseFlow - INFO - 
+[ITERATION 16/50]
+2026-04-14 10:31:51 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_016_20260414_103151_066499.png
+2026-04-14 10:31:51 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:51 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:51 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:51 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:52 - GeminiComputerUseFlow - INFO - 
+[ITERATION 17/50]
+2026-04-14 10:31:52 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_017_20260414_103152_669309.png
+2026-04-14 10:31:53 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:53 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:53 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:53 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:54 - GeminiComputerUseFlow - INFO - 
+[ITERATION 18/50]
+2026-04-14 10:31:54 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_018_20260414_103154_624495.png
+2026-04-14 10:31:55 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:55 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:55 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:55 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:56 - GeminiComputerUseFlow - INFO - 
+[ITERATION 19/50]
+2026-04-14 10:31:56 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_019_20260414_103156_737673.png
+2026-04-14 10:31:57 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:57 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:57 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:57 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:31:58 - GeminiComputerUseFlow - INFO - 
+[ITERATION 20/50]
+2026-04-14 10:31:59 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_020_20260414_103158_919931.png
+2026-04-14 10:31:59 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:31:59 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:31:59 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:31:59 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:00 - GeminiComputerUseFlow - INFO - 
+[ITERATION 21/50]
+2026-04-14 10:32:00 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_021_20260414_103200_753754.png
+2026-04-14 10:32:01 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:01 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:01 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:01 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:02 - GeminiComputerUseFlow - INFO - 
+[ITERATION 22/50]
+2026-04-14 10:32:02 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_022_20260414_103202_541249.png
+2026-04-14 10:32:02 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:03 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:03 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:03 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:04 - GeminiComputerUseFlow - INFO - 
+[ITERATION 23/50]
+2026-04-14 10:32:04 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_023_20260414_103204_186357.png
+2026-04-14 10:32:04 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:04 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:04 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:04 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:05 - GeminiComputerUseFlow - INFO - 
+[ITERATION 24/50]
+2026-04-14 10:32:06 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_024_20260414_103205_906459.png
+2026-04-14 10:32:06 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:06 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:06 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:06 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:07 - GeminiComputerUseFlow - INFO - 
+[ITERATION 25/50]
+2026-04-14 10:32:07 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_025_20260414_103207_733462.png
+2026-04-14 10:32:08 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:08 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:08 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:08 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:09 - GeminiComputerUseFlow - INFO - 
+[ITERATION 26/50]
+2026-04-14 10:32:09 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_026_20260414_103209_468782.png
+2026-04-14 10:32:09 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:10 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:10 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:10 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:11 - GeminiComputerUseFlow - INFO - 
+[ITERATION 27/50]
+2026-04-14 10:32:11 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_027_20260414_103211_037464.png
+2026-04-14 10:32:11 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:11 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:11 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:11 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:12 - GeminiComputerUseFlow - INFO - 
+[ITERATION 28/50]
+2026-04-14 10:32:12 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_028_20260414_103212_770258.png
+2026-04-14 10:32:13 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:13 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:13 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:13 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:14 - GeminiComputerUseFlow - INFO - 
+[ITERATION 29/50]
+2026-04-14 10:32:14 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_029_20260414_103214_372808.png
+2026-04-14 10:32:14 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:15 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:15 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:15 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:16 - GeminiComputerUseFlow - INFO - 
+[ITERATION 30/50]
+2026-04-14 10:32:16 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_030_20260414_103216_058024.png
+2026-04-14 10:32:16 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:16 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:16 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:16 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:17 - GeminiComputerUseFlow - INFO - 
+[ITERATION 31/50]
+2026-04-14 10:32:17 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_031_20260414_103217_812509.png
+2026-04-14 10:32:18 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:18 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:18 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:18 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:19 - GeminiComputerUseFlow - INFO - 
+[ITERATION 32/50]
+2026-04-14 10:32:19 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_032_20260414_103219_414284.png
+2026-04-14 10:32:20 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:20 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:20 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:20 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:21 - GeminiComputerUseFlow - INFO - 
+[ITERATION 33/50]
+2026-04-14 10:32:21 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_033_20260414_103221_348439.png
+2026-04-14 10:32:21 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:21 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:21 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:21 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:22 - GeminiComputerUseFlow - INFO - 
+[ITERATION 34/50]
+2026-04-14 10:32:23 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_034_20260414_103222_972704.png
+2026-04-14 10:32:23 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:23 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:23 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:23 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:24 - GeminiComputerUseFlow - INFO - 
+[ITERATION 35/50]
+2026-04-14 10:32:24 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_035_20260414_103224_536428.png
+2026-04-14 10:32:24 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:25 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:25 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:25 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:26 - GeminiComputerUseFlow - INFO - 
+[ITERATION 36/50]
+2026-04-14 10:32:26 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_036_20260414_103226_090447.png
+2026-04-14 10:32:26 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:26 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:26 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:26 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:27 - GeminiComputerUseFlow - INFO - 
+[ITERATION 37/50]
+2026-04-14 10:32:28 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_037_20260414_103227_928212.png
+2026-04-14 10:32:28 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:28 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:28 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:28 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:29 - GeminiComputerUseFlow - INFO - 
+[ITERATION 38/50]
+2026-04-14 10:32:29 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_038_20260414_103229_590789.png
+2026-04-14 10:32:29 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:30 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:30 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:30 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:31 - GeminiComputerUseFlow - INFO - 
+[ITERATION 39/50]
+2026-04-14 10:32:31 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_039_20260414_103231_105772.png
+2026-04-14 10:32:31 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:31 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:31 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:31 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:32 - GeminiComputerUseFlow - INFO - 
+[ITERATION 40/50]
+2026-04-14 10:32:32 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_040_20260414_103232_701690.png
+2026-04-14 10:32:33 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:33 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:33 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:33 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:34 - GeminiComputerUseFlow - INFO - 
+[ITERATION 41/50]
+2026-04-14 10:32:34 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_041_20260414_103234_342006.png
+2026-04-14 10:32:34 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:34 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:34 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:34 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:35 - GeminiComputerUseFlow - INFO - 
+[ITERATION 42/50]
+2026-04-14 10:32:35 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_042_20260414_103235_799826.png
+2026-04-14 10:32:36 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:36 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:36 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:36 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:37 - GeminiComputerUseFlow - INFO - 
+[ITERATION 43/50]
+2026-04-14 10:32:37 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_043_20260414_103237_284914.png
+2026-04-14 10:32:37 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:37 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:37 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:37 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:38 - GeminiComputerUseFlow - INFO - 
+[ITERATION 44/50]
+2026-04-14 10:32:39 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_044_20260414_103238_896781.png
+2026-04-14 10:32:39 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:39 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:39 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:39 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:40 - GeminiComputerUseFlow - INFO - 
+[ITERATION 45/50]
+2026-04-14 10:32:40 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_045_20260414_103240_568810.png
+2026-04-14 10:32:40 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:41 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:41 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:41 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:42 - GeminiComputerUseFlow - INFO - 
+[ITERATION 46/50]
+2026-04-14 10:32:42 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_046_20260414_103242_137584.png
+2026-04-14 10:32:42 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:42 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:42 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:42 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:43 - GeminiComputerUseFlow - INFO - 
+[ITERATION 47/50]
+2026-04-14 10:32:43 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_047_20260414_103243_792892.png
+2026-04-14 10:32:44 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:44 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:44 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:44 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:45 - GeminiComputerUseFlow - INFO - 
+[ITERATION 48/50]
+2026-04-14 10:32:45 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_048_20260414_103245_451571.png
+2026-04-14 10:32:45 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:46 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:46 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:46 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:47 - GeminiComputerUseFlow - INFO - 
+[ITERATION 49/50]
+2026-04-14 10:32:47 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_049_20260414_103247_130500.png
+2026-04-14 10:32:47 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:47 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:47 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:47 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:48 - GeminiComputerUseFlow - INFO - 
+[ITERATION 50/50]
+2026-04-14 10:32:48 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_050_20260414_103248_715599.png
+2026-04-14 10:32:49 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:32:49 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifesty
+2026-04-14 10:32:49 - GeminiComputerUseFlow - INFO - [ACTION] extract: price
+2026-04-14 10:32:49 - GeminiComputerUseFlow - INFO - [EXTRACT] price: 
+2026-04-14 10:32:50 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 10:32:50 - GeminiComputerUseFlow - INFO - EXECUTION COMPLETE: 50 iterations, 43 actions, 247.5s
+2026-04-14 10:32:50 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 10:32:50 - AutomationEngine - INFO - [RESULTS] Saved to execution_results\task_20260414_102828_747186.json
+2026-04-14 10:32:50 - AutomationEngine - INFO - 
+[SUCCESS] Task completed in 247.5s
+2026-04-14 10:32:50 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 10:32:50 - __main__ - INFO - EXECUTION RESULTS
+2026-04-14 10:32:50 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 10:32:50 - __main__ - INFO - Status: success
+2026-04-14 10:32:50 - __main__ - INFO - Task ID: 20260414_102828_747186
+2026-04-14 10:32:50 - __main__ - INFO - Navigation URL: https://flipkart.com
+2026-04-14 10:32:50 - __main__ - INFO - Actual URL: https://www.flipkart.com/flights-travel-uhp-at-store?marketplace=travel&pageUID=1776142714925
+2026-04-14 10:32:50 - __main__ - INFO - Total Iterations: 50
+2026-04-14 10:32:50 - __main__ - INFO - Total Actions: 43
+2026-04-14 10:32:50 - __main__ - INFO - Pages Visited: 2
+2026-04-14 10:32:50 - __main__ - INFO - Execution Time: 247.5s
+2026-04-14 10:32:50 - __main__ - INFO - Gemini Used: True
+2026-04-14 10:32:50 - __main__ - INFO - Fallback Used: False
+2026-04-14 10:32:50 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 10:32:50 - __main__ - INFO - 
+[INSPECTION] Browser remains open for 30 seconds...
+2026-04-14 10:33:20 - __main__ - INFO - [BROWSER] Closing...
+2026-04-14 10:33:23 - AutomationEngine - INFO - [BROWSER] Closed
+2026-04-14 10:34:41 - __main__ - INFO - [TASK] YouTube Video Search
+
+2026-04-14 10:34:41 - __main__ - INFO - [BROWSER] Initializing...
+2026-04-14 10:34:41 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 10:34:41 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-14 10:34:41 - GeminiComputerUseFlow - INFO - Gemini 2.5 Pro initialized successfully
+2026-04-14 10:34:41 - AutomationEngine - INFO - AutomationEngine initialized: 20260414_103441_967647
+2026-04-14 10:34:41 - AutomationEngine - INFO - [BROWSER] Initializing chrome...
+2026-04-14 10:34:41 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-14 10:34:41 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-14 10:34:44 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-14 10:34:44 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-14 10:34:44 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-14 10:34:44 - AutomationEngine - INFO - [BROWSER] Ready
+2026-04-14 10:34:44 - __main__ - INFO - [BROWSER] Ready
+
+2026-04-14 10:34:46 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-14 10:34:46 - AutomationEngine - INFO - TASK EXECUTION - ANY REAL WEBSITE
+2026-04-14 10:34:46 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-14 10:34:46 - AutomationEngine - INFO - [NAVIGATE] https://youtube.com
+2026-04-14 10:34:56 - AutomationEngine - INFO - [LOADED] https://www.youtube.com/
+2026-04-14 10:34:56 - AutomationEngine - INFO - 
+[WEBSITE] Detected: YOUTUBE
+2026-04-14 10:34:56 - AutomationEngine - INFO - [WEBSITE] Selectors optimized for: youtube
+2026-04-14 10:34:56 - AutomationEngine - INFO - [WORKFLOW] Extraction fields: title, channel, views, likes, upload_date
+2026-04-14 10:34:56 - AutomationEngine - INFO - [SCREENSHOT] Initial captured
+2026-04-14 10:34:56 - AutomationEngine - INFO - [GEMINI] Starting computer use loop...
+
+2026-04-14 10:34:56 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 10:34:56 - GeminiComputerUseFlow - INFO - GEMINI 2.5 PRO COMPUTER USE - ENHANCED EXECUTION
+2026-04-14 10:34:56 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 10:34:56 - GeminiComputerUseFlow - INFO - 
+[ITERATION 1/50]
+2026-04-14 10:34:56 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_001_20260414_103456_168973.png
+2026-04-14 10:34:57 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:02 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:02 - GeminiComputerUseFlow - INFO - [ACTION] fill: input[placeholder='Search'] = a.r. rahman songs
+2026-04-14 10:35:03 - GeminiComputerUseFlow - INFO - [FILL] input[placeholder='Search']: a.r. rahman songs
+2026-04-14 10:35:04 - GeminiComputerUseFlow - INFO - 
+[ITERATION 2/50]
+2026-04-14 10:35:04 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_002_20260414_103504_810669.png
+2026-04-14 10:35:05 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:10 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:10 - GeminiComputerUseFlow - INFO - [ACTION] fill: input[placeholder='Search'] = a.r. rahman songs
+2026-04-14 10:35:12 - GeminiComputerUseFlow - INFO - [FILL] input[placeholder='Search']: a.r. rahman songs
+2026-04-14 10:35:13 - GeminiComputerUseFlow - INFO - 
+[ITERATION 3/50]
+2026-04-14 10:35:13 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_003_20260414_103513_017179.png
+2026-04-14 10:35:13 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:14 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:14 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:35:20 - GeminiComputerUseFlow - INFO - 
+[ITERATION 4/50]
+2026-04-14 10:35:21 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_004_20260414_103520_908377.png
+2026-04-14 10:35:21 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:22 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:22 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:35:28 - GeminiComputerUseFlow - INFO - 
+[ITERATION 5/50]
+2026-04-14 10:35:28 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_005_20260414_103528_727015.png
+2026-04-14 10:35:29 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:30 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:30 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:35:36 - GeminiComputerUseFlow - INFO - 
+[ITERATION 6/50]
+2026-04-14 10:35:36 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_006_20260414_103536_592257.png
+2026-04-14 10:35:37 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:38 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:38 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:35:44 - GeminiComputerUseFlow - INFO - 
+[ITERATION 7/50]
+2026-04-14 10:35:44 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_007_20260414_103544_346894.png
+2026-04-14 10:35:44 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:45 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:45 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:35:52 - GeminiComputerUseFlow - INFO - 
+[ITERATION 8/50]
+2026-04-14 10:35:52 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_008_20260414_103552_084097.png
+2026-04-14 10:35:52 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:35:53 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:35:53 - GeminiComputerUseFlow - INFO - [ACTION] click: link
+2026-04-14 10:35:59 - GeminiComputerUseFlow - INFO - 
+[ITERATION 9/50]
+2026-04-14 10:35:59 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_009_20260414_103559_693429.png
+2026-04-14 10:36:00 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:00 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:00 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:00 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:01 - GeminiComputerUseFlow - INFO - 
+[ITERATION 10/50]
+2026-04-14 10:36:01 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_010_20260414_103601_790171.png
+2026-04-14 10:36:02 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:02 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:02 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:02 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:03 - GeminiComputerUseFlow - INFO - 
+[ITERATION 11/50]
+2026-04-14 10:36:03 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_011_20260414_103603_681876.png
+2026-04-14 10:36:04 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:04 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:04 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:04 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:05 - GeminiComputerUseFlow - INFO - 
+[ITERATION 12/50]
+2026-04-14 10:36:05 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_012_20260414_103605_506540.png
+2026-04-14 10:36:06 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:06 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:06 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:06 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:07 - GeminiComputerUseFlow - INFO - 
+[ITERATION 13/50]
+2026-04-14 10:36:07 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_013_20260414_103607_540184.png
+2026-04-14 10:36:08 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:08 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:08 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:08 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:09 - GeminiComputerUseFlow - INFO - 
+[ITERATION 14/50]
+2026-04-14 10:36:09 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_014_20260414_103609_325368.png
+2026-04-14 10:36:09 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:10 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:10 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:10 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:11 - GeminiComputerUseFlow - INFO - 
+[ITERATION 15/50]
+2026-04-14 10:36:11 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_015_20260414_103611_439294.png
+2026-04-14 10:36:11 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:12 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:12 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:12 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:13 - GeminiComputerUseFlow - INFO - 
+[ITERATION 16/50]
+2026-04-14 10:36:13 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_016_20260414_103613_149328.png
+2026-04-14 10:36:13 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:14 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:14 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:14 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:15 - GeminiComputerUseFlow - INFO - 
+[ITERATION 17/50]
+2026-04-14 10:36:15 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_017_20260414_103615_093955.png
+2026-04-14 10:36:15 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:16 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:16 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:16 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:17 - GeminiComputerUseFlow - INFO - 
+[ITERATION 18/50]
+2026-04-14 10:36:17 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_018_20260414_103617_116619.png
+2026-04-14 10:36:17 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:18 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:18 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:18 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:19 - GeminiComputerUseFlow - INFO - 
+[ITERATION 19/50]
+2026-04-14 10:36:19 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_019_20260414_103619_044125.png
+2026-04-14 10:36:19 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:20 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:20 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:20 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:21 - GeminiComputerUseFlow - INFO - 
+[ITERATION 20/50]
+2026-04-14 10:36:21 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_020_20260414_103621_060440.png
+2026-04-14 10:36:21 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:22 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:22 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:22 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:23 - GeminiComputerUseFlow - INFO - 
+[ITERATION 21/50]
+2026-04-14 10:36:23 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_021_20260414_103623_016168.png
+2026-04-14 10:36:23 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:24 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:24 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:24 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:25 - GeminiComputerUseFlow - INFO - 
+[ITERATION 22/50]
+2026-04-14 10:36:25 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_022_20260414_103625_096494.png
+2026-04-14 10:36:25 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:25 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:25 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:25 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:27 - GeminiComputerUseFlow - INFO - 
+[ITERATION 23/50]
+2026-04-14 10:36:27 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_023_20260414_103627_001390.png
+2026-04-14 10:36:27 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:27 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:27 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:27 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:28 - GeminiComputerUseFlow - INFO - 
+[ITERATION 24/50]
+2026-04-14 10:36:29 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_024_20260414_103628_899099.png
+2026-04-14 10:36:29 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:29 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:29 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:29 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:30 - GeminiComputerUseFlow - INFO - 
+[ITERATION 25/50]
+2026-04-14 10:36:31 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_025_20260414_103630_964324.png
+2026-04-14 10:36:31 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:31 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:31 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:31 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:32 - GeminiComputerUseFlow - INFO - 
+[ITERATION 26/50]
+2026-04-14 10:36:33 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_026_20260414_103632_884972.png
+2026-04-14 10:36:33 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:33 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:33 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:33 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:34 - GeminiComputerUseFlow - INFO - 
+[ITERATION 27/50]
+2026-04-14 10:36:34 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_027_20260414_103634_851273.png
+2026-04-14 10:36:35 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:35 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:35 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:35 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:36 - GeminiComputerUseFlow - INFO - 
+[ITERATION 28/50]
+2026-04-14 10:36:36 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_028_20260414_103636_667516.png
+2026-04-14 10:36:37 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:37 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:37 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:37 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:38 - GeminiComputerUseFlow - INFO - 
+[ITERATION 29/50]
+2026-04-14 10:36:38 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_029_20260414_103638_668742.png
+2026-04-14 10:36:39 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:39 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:39 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:39 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:40 - GeminiComputerUseFlow - INFO - 
+[ITERATION 30/50]
+2026-04-14 10:36:40 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_030_20260414_103640_775408.png
+2026-04-14 10:36:41 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:41 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:41 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:41 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:42 - GeminiComputerUseFlow - INFO - 
+[ITERATION 31/50]
+2026-04-14 10:36:42 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_031_20260414_103642_709593.png
+2026-04-14 10:36:43 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:43 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:43 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:43 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:44 - GeminiComputerUseFlow - INFO - 
+[ITERATION 32/50]
+2026-04-14 10:36:45 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_032_20260414_103644_712608.png
+2026-04-14 10:36:45 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:46 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:46 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:46 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:47 - GeminiComputerUseFlow - INFO - 
+[ITERATION 33/50]
+2026-04-14 10:36:47 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_033_20260414_103647_211610.png
+2026-04-14 10:36:47 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:48 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:48 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:48 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:49 - GeminiComputerUseFlow - INFO - 
+[ITERATION 34/50]
+2026-04-14 10:36:49 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_034_20260414_103649_174192.png
+2026-04-14 10:36:49 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:50 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:50 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:50 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:51 - GeminiComputerUseFlow - INFO - 
+[ITERATION 35/50]
+2026-04-14 10:36:51 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_035_20260414_103651_245128.png
+2026-04-14 10:36:51 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:52 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:52 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:52 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:53 - GeminiComputerUseFlow - INFO - 
+[ITERATION 36/50]
+2026-04-14 10:36:53 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_036_20260414_103653_072486.png
+2026-04-14 10:36:53 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:54 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:54 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:54 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:55 - GeminiComputerUseFlow - INFO - 
+[ITERATION 37/50]
+2026-04-14 10:36:55 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_037_20260414_103655_014646.png
+2026-04-14 10:36:55 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:55 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:55 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:55 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:56 - GeminiComputerUseFlow - INFO - 
+[ITERATION 38/50]
+2026-04-14 10:36:57 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_038_20260414_103656_988121.png
+2026-04-14 10:36:57 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:36:58 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:36:58 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:36:58 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:36:59 - GeminiComputerUseFlow - INFO - 
+[ITERATION 39/50]
+2026-04-14 10:36:59 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_039_20260414_103659_099064.png
+2026-04-14 10:36:59 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:00 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:00 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:00 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:01 - GeminiComputerUseFlow - INFO - 
+[ITERATION 40/50]
+2026-04-14 10:37:01 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_040_20260414_103701_127493.png
+2026-04-14 10:37:01 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:02 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:02 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:02 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:03 - GeminiComputerUseFlow - INFO - 
+[ITERATION 41/50]
+2026-04-14 10:37:03 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_041_20260414_103703_126010.png
+2026-04-14 10:37:03 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:04 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:04 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:04 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:05 - GeminiComputerUseFlow - INFO - 
+[ITERATION 42/50]
+2026-04-14 10:37:05 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_042_20260414_103705_088472.png
+2026-04-14 10:37:05 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:06 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:06 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:06 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:07 - GeminiComputerUseFlow - INFO - 
+[ITERATION 43/50]
+2026-04-14 10:37:07 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_043_20260414_103707_237045.png
+2026-04-14 10:37:07 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:08 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:08 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:08 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:09 - GeminiComputerUseFlow - INFO - 
+[ITERATION 44/50]
+2026-04-14 10:37:09 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_044_20260414_103709_391206.png
+2026-04-14 10:37:10 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:10 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:10 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:10 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:11 - GeminiComputerUseFlow - INFO - 
+[ITERATION 45/50]
+2026-04-14 10:37:11 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_045_20260414_103711_369266.png
+2026-04-14 10:37:12 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:12 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:12 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:12 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:13 - GeminiComputerUseFlow - INFO - 
+[ITERATION 46/50]
+2026-04-14 10:37:13 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_046_20260414_103713_631174.png
+2026-04-14 10:37:14 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:14 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:14 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:14 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:15 - GeminiComputerUseFlow - INFO - 
+[ITERATION 47/50]
+2026-04-14 10:37:15 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_047_20260414_103715_766364.png
+2026-04-14 10:37:16 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:16 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:16 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:16 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:17 - GeminiComputerUseFlow - INFO - 
+[ITERATION 48/50]
+2026-04-14 10:37:17 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_048_20260414_103717_719367.png
+2026-04-14 10:37:18 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:18 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:18 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:18 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:19 - GeminiComputerUseFlow - INFO - 
+[ITERATION 49/50]
+2026-04-14 10:37:20 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_049_20260414_103719_848262.png
+2026-04-14 10:37:20 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:20 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:20 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:20 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:21 - GeminiComputerUseFlow - INFO - 
+[ITERATION 50/50]
+2026-04-14 10:37:21 - GeminiComputerUseFlow - INFO - [SCREENSHOT] step_050_20260414_103721_648616.png
+2026-04-14 10:37:22 - GeminiComputerUseFlow - WARNING - [FALLBACK] Gemini analysis failed, using rule-based analysis
+2026-04-14 10:37:22 - GeminiComputerUseFlow - INFO - [ANALYSIS] Page: YouTube. URL: https://www.youtube.com/. Elements: search box found
+2026-04-14 10:37:22 - GeminiComputerUseFlow - INFO - [ACTION] complete: task finished
+2026-04-14 10:37:22 - GeminiComputerUseFlow - INFO - [COMPLETE] task finished
+2026-04-14 10:37:23 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-14 10:37:23 - GeminiComputerUseFlow - INFO - EXECUTION COMPLETE: 50 iterations, 44 actions, 147.4s
+2026-04-14 10:37:23 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-14 10:37:23 - AutomationEngine - INFO - [RESULTS] Saved to execution_results\task_20260414_103441_967647.json
+2026-04-14 10:37:23 - AutomationEngine - INFO - 
+[SUCCESS] Task completed in 147.4s
+2026-04-14 10:37:23 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-14 10:37:23 - __main__ - INFO - EXECUTION RESULTS
+2026-04-14 10:37:23 - __main__ - INFO - ======================================================================================================================================================
+2026-04-14 10:37:23 - __main__ - INFO - Status: success
+2026-04-14 10:37:23 - __main__ - INFO - Task ID: 20260414_103441_967647
+2026-04-14 10:37:23 - __main__ - INFO - Navigation URL: https://youtube.com
+2026-04-14 10:37:23 - __main__ - INFO - Actual URL: https://www.youtube.com/
+2026-04-14 10:37:23 - __main__ - INFO - Total Iterations: 50
+2026-04-14 10:37:23 - __main__ - INFO - Total Actions: 44
+2026-04-14 10:37:23 - __main__ - INFO - Pages Visited: 1
+2026-04-14 10:37:23 - __main__ - INFO - Execution Time: 147.4s
+2026-04-14 10:37:23 - __main__ - INFO - Gemini Used: True
+2026-04-14 10:37:23 - __main__ - INFO - Fallback Used: False
+2026-04-14 10:37:23 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-14 10:37:23 - __main__ - INFO - 
+[INSPECTION] Browser remains open for 30 seconds...
+2026-04-14 10:37:53 - __main__ - INFO - [BROWSER] Closing...
+2026-04-14 10:37:56 - AutomationEngine - INFO - [BROWSER] Closed

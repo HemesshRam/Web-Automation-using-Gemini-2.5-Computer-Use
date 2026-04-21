@@ -1,0 +1,6 @@
+{
+  "error": "Failed to navigate to https://google.com: Message: unknown error: net::ERR_INTERNET_DISCONNECTED\n  (Session info: chrome=143.0.7499.169)\nStacktrace:\nSymbols not available. Dumping unresolved backtrace:\n\t0x7ff74fd888d5\n\t0x7ff74fd88930\n\t0x7ff74fb6165d\n\t0x7ff74fb5e1dd\n\t0x7ff74fb4eb69\n\t0x7ff74fb50974\n\t0x7ff74fb4f10f\n\t0x7ff74fb4e871\n\t0x7ff74fb4e5bd\n\t0x7ff74fb4c20a\n\t0x7ff74fb4c9f2\n\t0x7ff74fb65950\n\t0x7ff74fc0bad4\n\t0x7ff74fbe1fda\n\t0x7ff74fc0ac97\n\t0x7ff74fbaac29\n\t0x7ff74fbaba93\n\t0x7ff7500a0620\n\t0x7ff75009af60\n\t0x7ff7500b96c6\n\t0x7ff74fda5dd4\n\t0x7ff74fdaed7c\n\t0x7ff74fd91ff4\n\t0x7ff74fd921a5\n\t0x7ff74fd77ed2\n\t0x7ff91190e8d7\n\t0x7ff91328c48c\n",
+  "status": "failed",
+  "task_id": "20260411_195616_122386",
+  "attempted_url": "https://google.com"
+}

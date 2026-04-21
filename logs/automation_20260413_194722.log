@@ -1,0 +1,466 @@
+2026-04-13 19:47:22 - __main__ - INFO - Database initialized - all tables created
+2026-04-13 19:47:22 - __main__ - INFO - 
+======================================================================================================================================================
+2026-04-13 19:47:22 - __main__ - INFO - GEMINI 2.5 PRO - ENTERPRISE AGENTIC WEB AUTOMATION FRAMEWORK
+2026-04-13 19:47:22 - __main__ - INFO - ======================================================================================================================================================
+
+2026-04-13 19:47:24 - __main__ - INFO - Initializing browser...
+2026-04-13 19:47:24 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-13 19:47:24 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-04-13 19:47:24 - GeminiComputerUseFlow - INFO -   [Config] Primary model: gemini-2.0-flash
+2026-04-13 19:47:24 - GeminiComputerUseFlow - INFO -   [Model] gemini-2.0-flash ready
+2026-04-13 19:47:24 - GeminiComputerUseFlow - INFO -   [Model] gemini-2.5-pro ready
+2026-04-13 19:47:24 - GeminiComputerUseFlow - INFO -   [Model] gemini-2.0-flash-lite ready
+2026-04-13 19:47:24 - GeminiComputerUseFlow - INFO - Model cascade initialized: gemini-2.0-flash => gemini-2.5-pro => gemini-2.0-flash-lite
+2026-04-13 19:47:24 - AutomationEngine - INFO - AutomationEngine initialized: 20260413_194724_843029
+2026-04-13 19:47:24 - AutomationEngine - INFO - Initializing chrome driver...
+2026-04-13 19:47:24 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-04-13 19:47:24 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-04-13 19:47:28 - selenium_driver.driver_factory - INFO - Chrome driver created successfully
+2026-04-13 19:47:28 - selenium_driver.driver_factory - INFO - Headless: False
+2026-04-13 19:47:28 - selenium_driver.driver_factory - INFO - Window size: 1920x1080
+2026-04-13 19:47:28 - AutomationEngine - INFO - Driver initialized successfully
+2026-04-13 19:47:28 - AutomationEngine - INFO - Window size: 1920x1080
+2026-04-13 19:47:28 - __main__ - INFO - Executing task...
+
+2026-04-13 19:47:28 - AutomationEngine - INFO - 
+======================================================================================================================================================
+2026-04-13 19:47:28 - AutomationEngine - INFO - TASK EXECUTION - GEMINI 2.5 PRO COMPUTER USE
+2026-04-13 19:47:28 - AutomationEngine - INFO - ======================================================================================================================================================
+
+2026-04-13 19:47:28 - AutomationEngine - INFO - [URL NAVIGATION] Final URL selected: https://amazon.com
+2026-04-13 19:47:28 - AutomationEngine - INFO - [DATABASE] Task saved: 20260413_194724_843029
+2026-04-13 19:47:28 - AutomationEngine - INFO - [NAVIGATION] Going to https://amazon.com
+2026-04-13 19:47:35 - AutomationEngine - INFO - [NAVIGATION] Successfully loaded. Current URL: https://www.amazon.com/
+2026-04-13 19:47:35 - AutomationEngine - INFO - Initial screenshot captured
+2026-04-13 19:47:35 - AutomationEngine - INFO - Starting Gemini 2.5 Pro Computer Use flow...
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - GEMINI 2.5 PRO - PRODUCTION-GRADE COMPUTER USE FLOW
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - STEP 1/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - [Screenshot] step_001_20260413_194735_358308.png
+2026-04-13 19:47:35 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:47:36 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:47:36 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:47:37 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:47:37 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:47:37 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:47:37 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:47:37 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:47:37 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:47:53 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:47:54 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:47:54 - GeminiComputerUseFlow - INFO - STEP 2/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:47:54 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:47:54 - GeminiComputerUseFlow - INFO - [Screenshot] step_002_20260413_194754_444914.png
+2026-04-13 19:47:54 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:47:55 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:47:55 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:47:55 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:47:55 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:47:55 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:47:55 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:47:55 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:47:55 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:48:10 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:48:11 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:48:12 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:48:12 - GeminiComputerUseFlow - INFO - STEP 3/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:48:12 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:48:12 - GeminiComputerUseFlow - INFO - [Screenshot] step_003_20260413_194812_254383.png
+2026-04-13 19:48:12 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:13 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:48:13 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:13 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:48:13 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:14 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:48:14 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:48:14 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:48:14 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:48:29 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:48:30 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:48:30 - GeminiComputerUseFlow - INFO - STEP 4/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:48:30 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:48:30 - GeminiComputerUseFlow - INFO - [Screenshot] step_004_20260413_194830_726978.png
+2026-04-13 19:48:30 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:32 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:48:32 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:34 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:48:34 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:35 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:48:35 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:48:35 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:48:35 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:48:50 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:48:51 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:48:51 - GeminiComputerUseFlow - INFO - STEP 5/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:48:51 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:48:52 - GeminiComputerUseFlow - INFO - [Screenshot] step_005_20260413_194851_983730.png
+2026-04-13 19:48:52 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:54 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:48:54 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:56 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:48:56 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:48:57 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:48:57 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:48:57 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:48:57 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:49:12 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:49:13 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:49:13 - GeminiComputerUseFlow - INFO - STEP 6/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:49:13 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:49:13 - GeminiComputerUseFlow - INFO - [Screenshot] step_006_20260413_194913_540207.png
+2026-04-13 19:49:13 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:15 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:49:15 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:16 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:49:16 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:17 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:49:17 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:49:17 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:49:17 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:49:32 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:49:33 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:49:33 - GeminiComputerUseFlow - INFO - STEP 7/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:49:33 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:49:34 - GeminiComputerUseFlow - INFO - [Screenshot] step_007_20260413_194933_871499.png
+2026-04-13 19:49:34 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:34 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:49:34 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:35 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:49:35 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:36 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:49:36 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:49:36 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:49:36 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:49:51 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:49:52 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:49:53 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:49:53 - GeminiComputerUseFlow - INFO - STEP 8/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:49:53 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:49:53 - GeminiComputerUseFlow - INFO - [Screenshot] step_008_20260413_194953_166833.png
+2026-04-13 19:49:53 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:54 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:49:54 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:55 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:49:55 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:49:56 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:49:56 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:49:56 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:49:56 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:50:11 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:50:12 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:50:12 - GeminiComputerUseFlow - INFO - STEP 9/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:50:12 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:50:13 - GeminiComputerUseFlow - INFO - [Screenshot] step_009_20260413_195012_854317.png
+2026-04-13 19:50:13 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:13 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:50:13 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:14 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:50:14 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:14 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:50:14 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:50:14 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:50:14 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:50:29 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:50:30 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:50:31 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:50:31 - GeminiComputerUseFlow - INFO - STEP 10/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:50:31 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:50:31 - GeminiComputerUseFlow - INFO - [Screenshot] step_010_20260413_195031_320415.png
+2026-04-13 19:50:31 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:31 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:50:31 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:32 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:50:32 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:32 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:50:32 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:50:33 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:50:33 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:50:48 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:50:49 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:50:49 - GeminiComputerUseFlow - INFO - STEP 11/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:50:49 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:50:49 - GeminiComputerUseFlow - INFO - [Screenshot] step_011_20260413_195049_484115.png
+2026-04-13 19:50:49 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:50 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:50:50 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:50 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:50:50 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:50:51 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:50:51 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:50:51 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:50:51 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - [GOOGLE GEMINI 2.5 PRO - COMPUTER USE REASONING]
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - 
+Page Analysis:
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO -   Current Page: Amazon.com. Spend less. Smile more.
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO -   Visible Elements: Search Box (#twotabsearchtextbox), Search Box (input[name="field-keywords"])
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - 
+Reasoning:
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO -   Page is Amazon homepage or main page. Task requires interaction. Search bar found at #twotabsearchtextbox. Will type search query and submit.
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - 
+Function Call(s):
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO -   Name: fill
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO -   Args:
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO -     - target: #twotabsearchtextbox
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO -     - details: Typing query into Amazon search bar
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - 
+Confidence: 0.92
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - Expected Outcome: Search results page with listings
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - [Execute] Action: fill | Target: #twotabsearchtextbox
+2026-04-13 19:51:06 - GeminiComputerUseFlow - INFO - [OK] Filled field
+2026-04-13 19:51:07 - GeminiComputerUseFlow - INFO - 
+======================================================================================================================================================
+2026-04-13 19:51:07 - GeminiComputerUseFlow - INFO - STEP 12/50: Gemini 2.5 Pro Analysis & Navigation
+2026-04-13 19:51:07 - GeminiComputerUseFlow - INFO - ======================================================================================================================================================
+
+2026-04-13 19:51:07 - GeminiComputerUseFlow - INFO - [Screenshot] step_012_20260413_195107_678786.png
+2026-04-13 19:51:07 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:51:08 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash] Daily quota exhausted - trying next model
+2026-04-13 19:51:08 - GeminiComputerUseFlow - INFO - [gemini-2.5-pro] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:51:08 - GeminiComputerUseFlow - WARNING - [gemini-2.5-pro] Daily quota exhausted - trying next model
+2026-04-13 19:51:08 - GeminiComputerUseFlow - INFO - [gemini-2.0-flash-lite] Sending screenshot for analysis (attempt 1)...
+2026-04-13 19:51:09 - GeminiComputerUseFlow - WARNING - [gemini-2.0-flash-lite] Daily quota exhausted - trying next model
+2026-04-13 19:51:09 - GeminiComputerUseFlow - ERROR - All Gemini models exhausted/unavailable
+2026-04-13 19:51:09 - GeminiComputerUseFlow - WARNING - Gemini analysis failed, using fallback
+2026-04-13 19:51:09 - GeminiComputerUseFlow - INFO - [All models exhausted] Switching to Enhanced Rule-Based Analysis for Amazon
+2026-04-13 19:51:22 - urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=65101): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/e45675821f6b9853c2144c5a9bba9144/element
+2026-04-13 19:51:26 - urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=65101): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/e45675821f6b9853c2144c5a9bba9144/element
+2026-04-13 19:51:31 - urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=65101): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it")': /session/e45675821f6b9853c2144c5a9bba9144/element

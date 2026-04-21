@@ -1,0 +1,118 @@
+2026-03-31 23:18:03 - __main__ - INFO - ====================================================================================================
+2026-03-31 23:18:03 - __main__ - INFO - ENTERPRISE WEB AUTOMATION FRAMEWORK
+2026-03-31 23:18:03 - __main__ - INFO - ====================================================================================================
+2026-03-31 23:18:03 - __main__ - INFO - Settings: gemini_api_key='AIzaSyBLEBkiBbprCmO3TR61N-qry5tAf96Gi_A' gemini_model='gemini-2.5-pro' vision_model='gemini-2.5-pro' headless=False browser_type='chrome' disable_gpu=False no_sandbox=False disable_dev_shm=False use_proxy=False proxy_url='http://proxy.example.com:8080' rotate_proxy=False proxy_list_file='proxies.txt' enable_stealth=True random_delay=True delay_range_min=1.5 delay_range_max=4.5 user_agent_rotation=True randomize_headers=True database_url='sqlite:///automation.db' log_level='INFO' log_dir='logs' screenshot_dir='screenshots' page_load_timeout=45 element_wait_timeout=15 action_delay_min=0.8 action_delay_max=2.5 target_url='https://demoqa.com/' chrome_executable_path='D:\\web_automation_enterprise\\chrome\\win64-143.0.7499.169\\chrome-win64\\chrome.exe' firefox_executable_path=None
+2026-03-31 23:18:03 - __main__ - INFO - ====================================================================================================
+2026-03-31 23:18:26 - __main__ - INFO - Running automation for: www.amazon.com
+2026-03-31 23:18:35 - __main__ - INFO - ====================================================================================================
+2026-03-31 23:18:35 - __main__ - INFO - STARTING VISIBLE BROWSER AUTOMATION
+2026-03-31 23:18:35 - __main__ - INFO - ====================================================================================================
+2026-03-31 23:18:35 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-03-31 23:18:35 - detectors.anti_bot_service - INFO - AntiBotService initialized
+2026-03-31 23:18:35 - core.automation_engine - INFO - AutomationEngine initialized with task_id: example_visible_001
+2026-03-31 23:18:35 - core.automation_engine - INFO - Initializing chrome driver...
+2026-03-31 23:18:35 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-03-31 23:18:35 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:35 - selenium_driver.driver_factory - ERROR - Failed to create Chrome driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:35 - selenium_driver.driver_factory - ERROR - Chrome path used: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:35 - core.automation_engine - ERROR - Failed to initialize driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:35 - core.automation_engine - ERROR - Traceback (most recent call last):
+  File "D:\web_automation_enterprise\core\automation_engine.py", line 66, in initialize_driver
+    self.driver = self.driver_factory.create_driver(browser_type)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 35, in create_driver
+    return self._create_chrome_driver()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 113, in _create_chrome_driver
+    driver = webdriver.Chrome(
+        executable_path=str(executable_path),
+        options=options
+    )
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+
+2026-03-31 23:18:35 - utils.retry_logic - WARNING - initialize_driver failed (attempt 1/4): WebDriver.__init__() got an unexpected keyword argument 'executable_path'. Retrying in 2s...
+2026-03-31 23:18:37 - core.automation_engine - INFO - Initializing chrome driver...
+2026-03-31 23:18:37 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-03-31 23:18:37 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:37 - selenium_driver.driver_factory - ERROR - Failed to create Chrome driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:37 - selenium_driver.driver_factory - ERROR - Chrome path used: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:37 - core.automation_engine - ERROR - Failed to initialize driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:37 - core.automation_engine - ERROR - Traceback (most recent call last):
+  File "D:\web_automation_enterprise\core\automation_engine.py", line 66, in initialize_driver
+    self.driver = self.driver_factory.create_driver(browser_type)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 35, in create_driver
+    return self._create_chrome_driver()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 113, in _create_chrome_driver
+    driver = webdriver.Chrome(
+        executable_path=str(executable_path),
+        options=options
+    )
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+
+2026-03-31 23:18:37 - utils.retry_logic - WARNING - initialize_driver failed (attempt 2/4): WebDriver.__init__() got an unexpected keyword argument 'executable_path'. Retrying in 4.0s...
+2026-03-31 23:18:41 - core.automation_engine - INFO - Initializing chrome driver...
+2026-03-31 23:18:41 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-03-31 23:18:41 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:41 - selenium_driver.driver_factory - ERROR - Failed to create Chrome driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:41 - selenium_driver.driver_factory - ERROR - Chrome path used: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:41 - core.automation_engine - ERROR - Failed to initialize driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:41 - core.automation_engine - ERROR - Traceback (most recent call last):
+  File "D:\web_automation_enterprise\core\automation_engine.py", line 66, in initialize_driver
+    self.driver = self.driver_factory.create_driver(browser_type)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 35, in create_driver
+    return self._create_chrome_driver()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 113, in _create_chrome_driver
+    driver = webdriver.Chrome(
+        executable_path=str(executable_path),
+        options=options
+    )
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+
+2026-03-31 23:18:41 - utils.retry_logic - WARNING - initialize_driver failed (attempt 3/4): WebDriver.__init__() got an unexpected keyword argument 'executable_path'. Retrying in 8.0s...
+2026-03-31 23:18:49 - core.automation_engine - INFO - Initializing chrome driver...
+2026-03-31 23:18:49 - detectors.anti_bot_service - INFO - Applied stealth measures: dict_keys(['user_agent', 'headers', 'javascript_enabled', 'cookies_enabled', 'webgl_enabled'])
+2026-03-31 23:18:49 - selenium_driver.driver_factory - INFO - Using Chrome executable: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:49 - selenium_driver.driver_factory - ERROR - Failed to create Chrome driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:49 - selenium_driver.driver_factory - ERROR - Chrome path used: D:\web_automation_enterprise\chrome\win64-143.0.7499.169\chrome-win64\chrome.exe
+2026-03-31 23:18:49 - core.automation_engine - ERROR - Failed to initialize driver: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:49 - core.automation_engine - ERROR - Traceback (most recent call last):
+  File "D:\web_automation_enterprise\core\automation_engine.py", line 66, in initialize_driver
+    self.driver = self.driver_factory.create_driver(browser_type)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 35, in create_driver
+    return self._create_chrome_driver()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 113, in _create_chrome_driver
+    driver = webdriver.Chrome(
+        executable_path=str(executable_path),
+        options=options
+    )
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+
+2026-03-31 23:18:49 - utils.retry_logic - ERROR - initialize_driver failed after 4 attempts
+2026-03-31 23:18:49 - __main__ - ERROR - Automation failed: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+Traceback (most recent call last):
+  File "D:\web_automation_enterprise\main.py", line 51, in run_example_automation
+    if not engine.initialize_driver("chrome"):
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\web_automation_enterprise\utils\retry_logic.py", line 58, in wrapper
+    raise last_exception
+  File "D:\web_automation_enterprise\utils\retry_logic.py", line 43, in wrapper
+    return func(*args, **kwargs)
+  File "D:\web_automation_enterprise\core\automation_engine.py", line 66, in initialize_driver
+    self.driver = self.driver_factory.create_driver(browser_type)
+                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 35, in create_driver
+    return self._create_chrome_driver()
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\web_automation_enterprise\selenium_driver\driver_factory.py", line 113, in _create_chrome_driver
+    driver = webdriver.Chrome(
+        executable_path=str(executable_path),
+        options=options
+    )
+TypeError: WebDriver.__init__() got an unexpected keyword argument 'executable_path'
+2026-03-31 23:18:54 - __main__ - INFO - Exiting application...

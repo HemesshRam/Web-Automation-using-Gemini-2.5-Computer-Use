@@ -1,0 +1,20 @@
+{
+  "task_id": "20260414_103441_967647",
+  "total_iterations": 50,
+  "total_actions": 44,
+  "unique_pages": [
+    "https://www.youtube.com/"
+  ],
+  "execution_time": 147.353219,
+  "status": "success",
+  "success": true,
+  "gemini_used": true,
+  "fallback_used": false,
+  "engine": "gemini-2.5-pro-enhanced",
+  "screenshot_directory": "screenshots\\20260414_103441_967647",
+  "navigation_url": "https://youtube.com",
+  "actual_url": "https://www.youtube.com/",
+  "website_type": "youtube",
+  "workflow_applied": true,
+  "timestamp": "2026-04-14T10:37:23.530581"
+}
