@@ -1,0 +1,22 @@
+# requirements.txt - Web Automation Framework (MINIMAL - Windows Optimized)
+
+playwright
+undetected-chromedriver
+google-genai
+requests
+httpx
+python-dotenv
+pydantic
+pydantic-settings
+structlog
+python-json-logger
+sqlalchemy
+pytz
+colorama
+tqdm
+pytest
+pytest-asyncio
+typing-extensions
+urllib3
+certifi
+groq
