@@ -1,4 +1,4 @@
-# Enterprise Web Automation Framework
+# Enterprise Web Automation Framework using Gemini 2.5 Computer Use Model
 
 A production-grade, agentic web automation framework powered by **Gemini 2.5 Computer Use Model**. It features intelligent fallback analysis, natural language task execution, advanced anti-bot detection bypass, industrial standards, and an enterprise-level architecture.
 
@@ -44,6 +44,53 @@ The framework includes a state-of-the-art monitoring dashboard designed for ente
 - **🗂️ Task History & Management**: A comprehensive database of all past executions, complete with status tracking, duration metrics, and direct links to task details.
 - **🔍 Deep Task Inspection**: Detailed views for every automation run, capturing critical metadata, prompts, and final outcomes.
 - **✨ Premium UI/UX**: A modern, responsive interface featuring a sleek dark mode, glassmorphism design elements, and interactive data components.
+
+## 📂 Project Structure
+
+```text
+.
+├── agents/                      # AI Agent logic and Gemini integrations
+│   ├── gemini_computer_use.py   # Core Gemini Computer Use implementation
+│   ├── action_orchestrator.py   # Multi-step task coordination
+│   └── task_analyzer.py         # Natural language intent parsing
+├── api/                         # FastAPI Backend
+│   ├── server.py                # API entry point
+│   ├── websocket.py             # Real-time log streaming
+│   └── services.py              # Backend business logic
+├── config/                      # Configuration Management
+│   └── config.yaml              # Environment & application settings
+├── core/                        # Framework Core
+│   ├── automation_engine.py     # Main execution engine
+│   └── action_executor.py       # Browser action primitive handlers
+├── frontend/                    # React Monitoring Dashboard
+│   ├── src/                     # UI components and logic
+│   └── public/                  # Static assets
+├── persistence/                 # Database & History
+│   └── models.py                # SQLAlchemy data models
+├── selenium_driver/             # Browser Automation
+│   └── driver_factory.py        # Stealth driver initialization
+├── workflows/                   # Pre-defined automation patterns
+│   ├── base_workflow.py         # Extensible workflow template
+│   └── scraping_workflow.py     # Data extraction logic
+├── main.py                      # Interactive Terminal CLI
+└── run_dashboard.py             # Dashboard backend runner
+```
+
+## 📡 Live Log Streaming Architecture
+
+The framework features a sophisticated, bidirectional communication system that bridges the gap between the Python backend and the React frontend, providing real-time observability.
+
+### 🔄 Data Flow
+1.  **Subprocess Capture**: The `ProcessManager` (Backend) launches `main.py` in unbuffered mode (`-u`), capturing all `stdout` and `stderr` in real-time.
+2.  **WebSocket Broadcast**: A FastAPI-powered WebSocket server (`/ws/live-console`) pushes every line of output to all connected frontend clients as JSON packets.
+3.  **Intelligent Frontend**: The React dashboard classifies logs (Errors, Warnings, AI Actions) and applies dynamic styling, regex-based parsing, and auto-scrolling for a terminal-like experience.
+
+### 🛠️ Key Console Features
+- **Bidirectional Control**: Send stdin commands (like menu choices) directly from the web UI to the running Python process.
+- **Intelligent Styling**: AI-specific actions (Gemini Computer Use) and navigation events are highlighted with unique colors.
+- **Performance Optimized**: Handles thousands of log lines with an efficient rolling buffer and optimized React rendering.
+- **Deep Inspection**: Regex-based parsing separates timestamps, components, and log levels into structured columns.
+
 
 ## 🚀 Installation & Setup
 
@@ -131,3 +178,30 @@ You can select a pre-defined workflow tailored for specific sites (options 1-5),
 - `selenium_driver/`: Browser instantiation and stealth setups for undetected automation.
 - `utils/`: Common utilities for file handling, image processing, and string manipulation.
 - `workflows/`: Pre-defined automation routines for target websites (Amazon, YouTube, etc.).
+
+## 💼 Use Cases
+
+- **E-commerce Intelligence**: Automatically track prices, stock levels, and product variants across multiple global marketplaces.
+- **Complex Data Extraction**: Scrape data from highly dynamic, JavaScript-rendered websites where traditional scrapers fail.
+- **Automated QA Testing**: Perform end-to-end testing of web applications by describing test cases in natural language.
+- **Business Process Automation (BPA)**: Automate repetitive web-based tasks like flight bookings, form fillings, and report generation.
+- **Competitive Analysis**: Monitor competitor websites for updates, news, and strategy changes without manual intervention.
+
+## 🚀 Advantages
+
+- **🤖 Natural Language Driven**: No need to write complex CSS/XPath selectors; simply tell the agent what to do in plain English.
+- **🛡️ Advanced Stealth**: Integrated with `undetected-chromedriver` and realistic human behavior simulation to bypass sophisticated anti-bot systems.
+- **🔄 Intelligent Fallback**: Automatically switches from fixed workflows to AI-based DOM analysis if a website layout changes.
+- **📊 Enterprise Observability**: Real-time log streaming via WebSockets and a dedicated React dashboard for professional monitoring.
+- **🏗️ Robust Architecture**: Built with Pydantic for configuration, SQLAlchemy for persistence, and Structlog for enterprise-grade logging.
+
+## ⚠️ Limitations
+
+- **Model Latency**: Agentic decision-making via LLMs is slower than traditional, hardcoded automation scripts.
+- **API Costs**: Dependence on the Gemini 2.5 Computer Use model incurs API usage costs based on token consumption.
+- **Resource Intensive**: Running a full-headed browser with real-time UI analysis requires significant CPU and memory.
+- **Dynamic Complexity**: While highly capable, extremely cluttered or non-standard UI layouts may occasionally require prompt tuning.
+
+## 🏁 Conclusion
+
+The **Enterprise Web Automation Framework** represents the next generation of web interaction. By combining the reasoning power of **Gemini 2.5** with professional-grade engineering, it transforms browser automation from a brittle, code-heavy process into a flexible, intelligent system. Whether you are building a competitive intelligence engine or automating complex business workflows, this framework provides the reliability, stealth, and observability required for production-scale deployments.
