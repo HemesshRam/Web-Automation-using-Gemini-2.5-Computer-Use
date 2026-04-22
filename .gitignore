@@ -1,0 +1,47 @@
+# --- Python & Virtual Environments ---
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# --- Secrets & Environment Variables ---
+.env
+.env.local
+.env.*
+
+# --- Logs & Databases ---
+logs/
+*.log
+automation.db
+*.db
+
+# --- Web Automation (Playwright/Puppeteer) ---
+screenshots/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+proxies.txt
+
+# --- Node ---
+node_modules/
+
+# --- Testing & Coverage ---
+.pytest_cache/
+.coverage
+htmlcov/
+
+# --- IDE & OS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
