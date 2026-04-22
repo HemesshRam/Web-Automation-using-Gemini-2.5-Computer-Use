@@ -31,7 +31,7 @@ The framework is highly configurable via a `.env` file (see `.env.example`). Key
 ## 🛠️ Technologies Used
 
 ### Backend
-- **AI/LLM Engine**: Google Generative AI (`google-generativeai`)
+- **AI/LLM Engine**: Google Generative AI (`google-generativeai` / `genai`)
 - **Browser Automation**: Playwright, Selenium (`undetected-chromedriver`)
 - **API Framework**: FastAPI with WebSockets for real-time updates
 - **Configuration**: Pydantic v2, `python-dotenv`
