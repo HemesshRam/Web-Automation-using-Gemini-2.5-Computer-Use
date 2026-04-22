@@ -18,7 +18,7 @@ A production-grade, agentic web automation framework powered by **Gemini 2.5 Com
 ##  Project File
 https://drive.google.com/file/d/1cPNIrOPRuqgzlbmPrKK9aDQ8PX4detGp/view?usp=sharing
 
-## ⚙️ Environment Configuration (`.env`)
+## ⚙️ Environment Configuration 
 
 The framework is highly configurable via a `.env` file (see `.env.example`). Key configuration areas include:
 
