@@ -1,9 +1,0 @@
-2026-04-03 13:06:09 - __main__ - INFO - ====================================================================================================
-2026-04-03 13:06:09 - __main__ - INFO - ENTERPRISE AGENTIC AI WEB AUTOMATION FRAMEWORK
-2026-04-03 13:06:09 - __main__ - INFO - ====================================================================================================
-2026-04-03 13:06:09 - __main__ - INFO - Headless Mode: False
-2026-04-03 13:06:09 - __main__ - INFO - Anti-Bot Stealth: True
-2026-04-03 13:06:09 - __main__ - INFO - User-Agent Rotation: True
-2026-04-03 13:06:09 - __main__ - INFO - ====================================================================================================
-2026-04-03 13:06:16 - __main__ - ERROR - Error in task selection: type object 'TaskPromptLibrary' has no attribute 'list_tasks'
-2026-04-03 13:06:23 - __main__ - INFO - Exiting application...
