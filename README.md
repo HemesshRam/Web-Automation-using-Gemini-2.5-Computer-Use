@@ -18,6 +18,16 @@ A production-grade, agentic web automation framework powered by **Gemini 2.5 Com
 ##  Project File
 https://drive.google.com/file/d/1cPNIrOPRuqgzlbmPrKK9aDQ8PX4detGp/view?usp=sharing
 
+## ⚙️ Environment Configuration (`.env`)
+
+The framework is highly configurable via a `.env` file (see `.env.example`). Key configuration areas include:
+
+- **🔑 AI Engine**: Set your `GEMINI_API_KEY` and choose between the latest **Gemini 2025 Computer Use Preview** models (e.g., `gemini-2.5-pro` or `gemini-2.0-flash`).
+- **🌐 Browser Control**: Toggle `HEADLESS` mode, set custom `CHROME_EXECUTABLE_PATH`, and configure window dimensions.
+- **🛡️ Evasion Settings**: Fine-tune `ANTI_BOT_ENABLED`, `ENABLE_STEALTH`, and human-like typing/action delays.
+- **🗄️ Persistence & Logging**: Configure your `DATABASE_URL` (SQLite/PostgreSQL) and set `LOG_LEVEL` for enterprise tracing.
+- **⏱️ Timeouts & Retries**: Adjust `PAGE_LOAD_TIMEOUT`, `ELEMENT_WAIT_TIMEOUT`, and `MAX_RETRY_ATTEMPTS` for different network conditions.
+
 ## 🛠️ Technologies Used
 
 ### Backend
